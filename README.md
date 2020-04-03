@@ -4,6 +4,10 @@
 
 ![](http://i.imgur.com/H6kA9jQ.png)
 
+_EpicWorldGenerator brings you the most powerful world generator ever made to Spigot. Customize the plugin to generate the world your players have ever dreamed about. Create your own biomes or pick between the premade biomes. EpicWorldGenerator is here to take your server to the next level._
+
+\_\_
+
 Congratulations on selecting EpicWorldGenerator as your world generator. Your server will soon be super charged with one of the most epic world generator
 
 ### Install as default world generator
