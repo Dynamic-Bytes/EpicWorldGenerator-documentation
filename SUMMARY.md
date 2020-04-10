@@ -11,6 +11,9 @@
 
 * [Get started with world configuration](get-started-with-world-configuration.md)
 * [World settings \(world-settings.json\)](world-settings-world-settings.json.md)
+* [Generate world from image](generate-world-from-image.md)
+* [Manage biomes](manage-biomes.md)
+* [Customize ores](customize-ores.md)
 
 ## Configuration - INTERMEDIATE <a id="intermediate"></a>
 
