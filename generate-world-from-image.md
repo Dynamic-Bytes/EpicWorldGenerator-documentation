@@ -22,12 +22,13 @@ To give you an example, we created "The earth" as Minecraft map ![Map](http://i.
 
 ## Generate your own image based world
 
-1. Place a png image into the world folder of the world you want to create
+1. Enable the feature in the config file to EWG \(located in the plugin folder\) `"enableGeneratorSwap": true` 
+2. Place a png image into the world folder of the world you want to create
 
    `<sever dir>/<world folder>/settings/map.png`
 
-2. Start the server
-3. Import the world with /mv import  normal
+3. Start the server
+4. Import the world with /mv import  normal
 
 In the example above. We used this image, named it map.png and placed it in the folder; [https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole\_world\_-\_land\_and\_oceans\_12000.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg)
 
