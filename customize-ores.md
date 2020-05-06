@@ -148,7 +148,7 @@ Disable it by removing the property. Here is the default configuration to make o
     {
       "type": "EMERALD", // different generator algorithm, different options
       "block": {
-        "type": "EMERALD",
+        "type": "EMERALD_ORE",
         "tags": {}
       },
       "replaceBlock": {
