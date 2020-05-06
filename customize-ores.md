@@ -10,118 +10,162 @@ The plugin allows you to have full control over the ores. You can create your ow
 
 Keep in mind that by stating, "ores," it doesn't always refer to diamonds, emeralds, or similar items. Ores can be blocks as well like dirt. Visit here the link to see all types of ores. [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
 
-Ores has the following properties;
+
+
+By default, EWG will not directly handle ores, if the following vanilla property is enabled:
 
 ```javascript
-  {
-      "type": "DIRT", // Specify the block that you are customizing. MUST BE A NAME, NOT ID. For a list of valid names, see https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
-      "data": 0, // The number after the actual ID (Usually represented after "colon," or "slash" in game}. For a list of block data values, see http://minecraft-ids.grahamedgecombe.com/ (Example: <id>:<data>)
-      "size": 33, //The maximum number of blocks that can be spawned in as a group. 
-      "count": 10, //The number of times the world generator attempts to place a vein (or group) of the ores in a chunk. (higher value = more veins, and therefore more of this ore)
-      "minHeight": 0, //The minumum height the ore can spawn at
-      "maxHeight": 256 //The maximum height the ore can spawn at (256 is Minecrafts default height limit) (Should be around 30-50 for ores in styles of diamond, emerald, and red stone).
-    }
+"vanillaFeatures": [ 
+  "UNDERGROUND_ORES",
+  ...
+]
 ```
 
-By default, all the ores has the same spawning properties as you find in vanilla minecraft \(expect from emerald ore\). Here is the default configuration;
+Disable it by removing the property. Here is the default configuration to make ores spawn **exactly** like in vanilla.
 
 ```javascript
-  "ores": [
+  "oreGenerators": [
     {
-      "type": "DIRT",
-      "data": 0,
-      "size": 33,
-      "count": 10,
-      "minHeight": 0,
-      "maxHeight": 256
+      "type": "NATURAL_STONE", // ore generator algorithm (in this case, vein)
+      "block": {
+        "type": "DIRT", // ore material
+        "tags": {} // block state tags https://minecraft.gamepedia.com/Block_states
+      },
+      "size": 33, // The maximum number of blocks that can be spawned in as a group. 
+      "count": 10, // The number of times the world generator attempts to place a vein (or group) of the ores in a chunk. (higher value = more veins, and therefore more of this ore)
+      "bottomOffset": 0, // spawn from y level
+      "topOffset": 0, // Offset from surface level
+      "maximum": 256 // Max y level (bottomOffset + maximum)
     },
     {
-      "type": "GRAVEL",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GRAVEL",
+        "tags": {}
+      },
       "size": 33,
       "count": 8,
-      "minHeight": 0,
-      "maxHeight": 256
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
     },
     {
-      "type": "STONE",
-      "data": 1,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GRANITE",
+        "tags": {}
+      },
       "size": 33,
       "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
     },
     {
-      "type": "STONE",
-      "data": 3,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "DIORITE",
+        "tags": {}
+      },
       "size": 33,
       "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
     },
     {
-      "type": "STONE",
-      "data": 5,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "ANDESITE",
+        "tags": {}
+      },
       "size": 33,
       "count": 10,
-      "minHeight": 0,
-      "maxHeight": 80
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 256
     },
     {
-      "type": "COAL_ORE",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "COAL_ORE",
+        "tags": {}
+      },
       "size": 17,
       "count": 20,
-      "minHeight": 0,
-      "maxHeight": 128
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 128
     },
     {
-      "type": "IRON_ORE",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "IRON_ORE",
+        "tags": {}
+      },
       "size": 9,
       "count": 20,
-      "minHeight": 0,
-      "maxHeight": 64
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 64
     },
     {
-      "type": "GOLD_ORE",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "GOLD_ORE",
+        "tags": {}
+      },
       "size": 9,
       "count": 2,
-      "minHeight": 0,
-      "maxHeight": 32
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 32
     },
     {
-      "type": "REDSTONE_ORE",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "REDSTONE_ORE",
+        "tags": {}
+      },
       "size": 8,
-      "count": 8,
-      "minHeight": 0,
-      "maxHeight": 16
+      "count": 10,
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
     },
     {
-      "type": "DIAMOND_ORE",
-      "data": 0,
+      "type": "NATURAL_STONE",
+      "block": {
+        "type": "DIAMOND_ORE",
+        "tags": {}
+      },
       "size": 8,
       "count": 1,
-      "minHeight": 0,
-      "maxHeight": 16
+      "bottomOffset": 0,
+      "topOffset": 0,
+      "maximum": 16
     },
     {
-      "type": "LAPIS_ORE",
-      "data": 0,
+      "type": "EMERALD", // different generator algorithm, different options
+      "block": {
+        "type": "EMERALD",
+        "tags": {}
+      },
+      "replaceBlock": {
+        "type": "STONE", //block to replace
+        "tags": {}
+      }
+    },
+    {
+      "type": "LAPIS", 
+      "block": {
+        "type": "LAPIS_ORE",
+        "tags": {}
+      },
       "size": 7,
       "count": 1,
-      "minHeight": 0,
-      "maxHeight": 32
-    },
-    {
-      "type": "EMERALD_ORE",
-      "data": 0,
-      "size": 4,
-      "count": 2,
-      "minHeight": 4,
-      "maxHeight": 32
+      "baseline": 16, // distribution top, see https://upload.wikimedia.org/wikipedia/commons/8/8c/Standard_deviation_diagram.svg
+      "spread": 16 // distrubtion spread
     }
   ],
 ```
