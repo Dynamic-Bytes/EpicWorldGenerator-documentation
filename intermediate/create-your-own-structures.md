@@ -9,9 +9,8 @@ An EWG object can be used both under "customTrees" and "customStructures".
 ### Create a new structure file
 
 1. Select an object using world edit
-2. If air is included inside the structure \(House, Pyramid, etc.\) you must replace the air with sponges. Command: //re 0 sponge:1
-3. After, stand in the middle of the structure, or the center. click F3 and look at the column that shows the XYZ values. This feature is included in the installation of structures to prevent buildings being flown in mid-air.  Example: /ewg create &lt;center X&gt; &lt;center Y&gt; &lt;center Z&gt; &lt;name&gt; type in ONLY whole numbers, not decimals! 
-4. The structure is now saved under the EpicWorldsGenerator folder named"EWGFiles"
+2. After, stand in the middle of the structure, or the center. click F3 and look at the column that shows the XYZ values. This feature is included in the installation of structures to prevent buildings being flown in mid-air.  Example: /ewg create &lt;center X&gt; &lt;center Y&gt; &lt;center Z&gt; &lt;name&gt; type in ONLY whole numbers, not decimals! 
+3. The structure is now saved under the EpicWorldsGenerator folder named"EWGFiles"
 
 ### Make the file generate
 
