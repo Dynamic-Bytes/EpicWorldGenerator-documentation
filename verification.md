@@ -26,7 +26,7 @@ In order for you to verify any purchases, you must follow a few steps. You must 
 
 6. Wait for a staffmember to verify you as a legitimate buyer. 
 
-   > Please allow for 2 days before pinging or DM-ing any staff to verify you.
+   > Please allow for at least 2 days before pinging or DM-ing any staff to verify you.
 
 #### Example
 
