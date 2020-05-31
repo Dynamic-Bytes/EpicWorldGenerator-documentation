@@ -33,13 +33,16 @@ In order for you to verify any purchases, you must follow a few steps. You must 
 A correct verification app looks like follows;   
 _This is for the spigot account named DynamicBytes, which has discord ID 012345678910111213 and purchased EpicWorldGenerator._
 
-> **Plugins:** \[EpicWorldGenerator\]
->
-> **Spigot Profile Page:** [https://www.spigotmc.org/members/DynamicBytes.123456/](https://www.spigotmc.org/members/DynamicBytes.123456/)
+```text
+Plugins: [EpicWorldGenerator]
+Spigot Profile Page: https://www.spigotmc.org/members/DynamicBytes.123456/
+```
 
-Where the spigot page looks as follows:
+Where the spigot page has the Discord ID number as a status;
 
-_\(Add screenshot here later, contains the ID\)_
+```text
+012345678910111213 
+```
 
 #### Support
 

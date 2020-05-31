@@ -58,12 +58,16 @@ In the vast majority of the cases in which this occurs, it is cuased by user-err
 
 * Changes have been made in the configuration files after the first chunks have already been generated.
 
-  > Every time you do configuration changes that are not related to structures or terrain overlay, it is required to do a full reset of the world. You can do so by deleting the `*/<world name>/regions` folder from your world.
+{% hint style="danger" %}
+> Every time you do configuration changes that are not related to structures or terrain overlay, it is required to do a full reset of the world. You can do so by deleting the `*/<world name>/regions` folder from your world.
+{% endhint %}
 
 * You have updated the plugin and new and old versions are not compatible with eachother \(mainly occurs with transitions from v6 to v7, but the plugin should prevent you from updating by crashing the server and linking you to a guide on how you can migrate\)
 * Chunks had been generated in the world by vanilla minecraft before you installed the plugin.
 
-  > Before making a world with this plugin, you must make sure that the region folder \(`*/<world name>/regions`\) was removed after the plugin was installed.
+{% hint style="warning" %}
+> Before making a world with this plugin, you must make sure that the region folder \(`*/<world name>/regions`\) was removed right after the plugin was installed.
+{% endhint %}
 
 It is limited what you can do to resolve the problem, but here are some tips;
 
@@ -81,9 +85,11 @@ The reason no ores are spawning in your world is because of recent changes to th
 3. Download the .zip file from [here](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and copy-paste **only** the EpicWorldGenerator folder to your `*/plugins` folder, replacing the one already in there.
 4. Remove all the region files from your world after stopping your server. \(`*/<world name>/region`\).
 
-   > This will remove the world in its whole.
+{% hint style="danger" %}
+> This will remove the world in its whole.
+{% endhint %}
 
-5. Start the server \(and pre-generate the world\).
+1. Start the server \(and pre-generate the world\).
 
 #### V. Why does my server not start?
 
@@ -125,7 +131,9 @@ Replace this **entire** block of code with the following:
 
 Restart the server, and you should be good to go.
 
-> Make sure to also remove the closing `}`.
+{% hint style="warning" %}
+> Make sure to also remove the closing `}`
+{% endhint %}
 
 #### VII. How do I pre-generate a world?
 
@@ -137,7 +145,9 @@ Click [here](https://docs.dynamic-bytes.com/beginner/pre-generation) to get a gu
 
 You might have biomes you do not like. There is a simple 4 step plan to disable them. 1. Find the biome, fly over it and do `/ewg info` and remember or write down the biome name. 2. Go into the following folder in your server: `*/<world name>/settings/biomes/` and open either `custom` or `default`, depending on which folder the specific biome is in. 3. Find and open the biome file with the same name as `/ewg info` returned. 4. Change `"enabled": true,` to `"enabled": false`. Repeat this for every biome you don't like.
 
+{% hint style="info" %}
 > If you have any missing or broken chunks, check out **VII. How do I pre-generate a world?**, which is above here.
+{% endhint %}
 
 #### Support
 

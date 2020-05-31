@@ -17,9 +17,12 @@ description: All pages in this wiki are listed here
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
 
-    > Everything above this point has been completed \(Apart from edits to the Recommended Installation, on which I am collaborating with one of the community's members.\)
+{% hint style="success" %}
+> Everything above this point has been completed \(Apart from edits to the Recommended Installation, on which I am collaborating with one of the community's members.\)  
+> Everything below this point is very likely to contain errors, spelling mistakes and other inconsistencies.
+{% endhint %}
 
-  * [Biome settings](https://docs.dynamic-bytes.com/beginner/biome-settings)
+*  * [Biome settings](https://docs.dynamic-bytes.com/beginner/biome-settings)
     * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 
