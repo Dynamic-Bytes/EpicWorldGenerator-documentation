@@ -26,4 +26,4 @@ In order to use EWG to its full potential, there are a few handy commands for yo
 ### Support
 If you run into issues with any of these commands, make sure to contact our support team on our [Discord](https://discord.gg/Jq3ecb3).
 
-#### Back to: [Table of contents](../table-of-contents.md).
+#### Back to: [Table of contents](table-of-contents.md).
