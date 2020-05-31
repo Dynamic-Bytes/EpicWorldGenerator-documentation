@@ -22,8 +22,8 @@ Each of the individual settings can then be found under:
 ```
 
 ### More on this topic
-* [World settings](world-settings-world.md "Link to world settings")
-* [Biome settings](world-settings-biomes.md "Link to biome settings")
+* [World settings](world-configuration-world.md "Link to world settings")
+* [Biome settings](world-configuration-biomes.md "Link to biome settings")
   * [Customize ores](customize-ores.md "Link to ore customisation")
 * [Generate world from image](generate-world-from-image.md "Link to image generation")
 
