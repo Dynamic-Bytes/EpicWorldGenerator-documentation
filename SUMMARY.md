@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting started](README.md)
-* [Table of Contents](table-of-contents.md)
+* [Table of Contents](summary.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 
 ## Usage
