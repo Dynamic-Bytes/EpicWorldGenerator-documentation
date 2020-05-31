@@ -1,4 +1,4 @@
-# Create a custom biome
+# Create a biome
 
 ### Create a new biome
 
