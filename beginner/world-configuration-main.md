@@ -22,12 +22,12 @@ Each of the individual settings can then be found under:
 ```
 
 ### More on this topic
-* [World settings](beginner/world-settings-world.md "Link to world settings")
-* [Biome settings](beginner/world-settings-biomes.md "Link to biome settings")
-  * [Customize ores](beginner/customize-ores.md "Link to ore customisation")
-* [Generate world from image](beginner/generate-world-from-image.md "Link to image generation")
+* [World settings](world-settings-world.md "Link to world settings")
+* [Biome settings](world-settings-biomes.md "Link to biome settings")
+  * [Customize ores](customize-ores.md "Link to ore customisation")
+* [Generate world from image](generate-world-from-image.md "Link to image generation")
 
 ### Support
 If you need support, make sure to contact support on our [Discord](https://discord.gg/Jq3ecb3 "Link to our Discord").
 
-#### Back to: [Table of contents](table-of-contents.md "Link to table of contents").
+#### Back to: [Table of contents](../table-of-contents.md "Link to table of contents").
