@@ -8,7 +8,7 @@ The setting file is location at;
 <server directory>/<world name>/settings/world-settings.json
 ```
 
-### General setting
+## General setting
 
 Used internal in the plugin to provide correct algorithms that matches the the already generated chunks. The version listed is the version the first chunks in the world got generated with. The only times you need to change this option is if you reset your world and want to keep the current settings.
 
@@ -25,7 +25,7 @@ The setting determines whether all the world's oceans and rivers should be fille
 Noise algortihm used to generate terrain. Small differences, by default it will use perlin noise. See [https://en.wikipedia.org/wiki/Perlin\_noise](https://en.wikipedia.org/wiki/Perlin_noise) and [https://en.wikipedia.org/wiki/Simplex\_noise](https://en.wikipedia.org/wiki/Simplex_noise) for comparison
 
 ```javascript
-  "useOpenSimplexNoise": true 
+  "useOpenSimplexNoise": true
 ```
 
 The world generator have an insane amount of random calls to determine how the terrain should be generated and what blocks it should paint the terrain with. Within a few minutes of chunk generating has the plugin generated millions upon millions of random numbers to take dedications. The plugin try to decrease numbers by using the same numbers multiple times as often as it can. It still not fast enough. Turing on this option improves the performance but the quality decrease slightly. See [http://xoroshiro.di.unimi.it/](http://xoroshiro.di.unimi.it/) \("xoroshiro128+"\)
@@ -77,9 +77,8 @@ The chance for a mineshaft to be generated per chunk \(percentage value\). This 
   "mineshaftChance": 0.01,
 ```
 
-### World border
+## World border
 
-  
 The plugin allows you to make the world stop generating after it has reached a world border that is square shaped. You can set the radius \(technical half of the length of the square, since it is not a circle\) by using the following option;
 
 ![World border](http://i.imgur.com/X9xBvlG.png)
@@ -95,7 +94,7 @@ The center of the world border will be at;
   "worldCenterZ": 0,
 ```
 
-### Flat areas
+## Flat areas
 
 ![Flat area](http://i.imgur.com/MzXyi83.png)
 
@@ -122,12 +121,11 @@ The flat areas can be usefull for multiple spawnpoints around the world and also
   ]
 ```
 
-### Biome types
+## Biome types
 
 The next parts of the configuration file is about biomes. In EWG, they are grouped into different types. Desert, aquatic, grassland, forest and tundra. Desert and tundra will spawn as long as possible from each other, while grassland and forest will spawn next to each other. Same goes for desert and aquatic, aquatic and grassland and forest and tundra. Each of the types contains a set of biomes. By default will all biomes have the same size and spawn at the same amount as other biomes.
 
-Here is a illustration created by xemnes that shows the difference between biome and biome types;  
-
+Here is a illustration created by xemnes that shows the difference between biome and biome types;
 
 ![Biome sizes](http://i.imgur.com/BOfhWoy.png)
 

@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-### Where do I find the configuration files?
+## Where do I find the configuration files?
 
 All configuration options related to aspecific world, \(world settings\) can be found here;
 
@@ -29,11 +29,11 @@ General plugin settings can be found at;
 <server folder>/plugins/EpicWorldGenerator/settings.json
 ```
 
-### Where can I find pre-made configurations?
+## Where can I find pre-made configurations?
 
-Type /ewg createworld  or visit [http://discuss.dynamic-bytes.com/t/configurations](http://discuss.dynamic-bytes.com/t/configurations)
+Type /ewg createworld or visit [http://discuss.dynamic-bytes.com/t/configurations](http://discuss.dynamic-bytes.com/t/configurations)
 
-### It appears "chunk borders" between the chunks, why and how can this be fixed?
+## It appears "chunk borders" between the chunks, why and how can this be fixed?
 
 In 95% of the cases is this created by the user by using the plugin wrong. Most common reasons;
 
@@ -48,7 +48,7 @@ It is limited what you can do with the problem, but here is some tips;
 * Trim the world using world border, if the new chunks is on the edge of the map; [http://dev.bukkit.org/bukkit-plugins/worldborder/](http://dev.bukkit.org/bukkit-plugins/worldborder/)
 * Use the world edit's regen command
 
-### How do I disable leaves on ground?
+## How do I disable leaves on ground?
 
 In the settings file for the biome, search for "leavesBlock" and remove the json section. If you are unsure on what the json section is, see [https://cdn.pbrd.co/images/7kTZdwxIe.png](https://cdn.pbrd.co/images/7kTZdwxIe.png). The text marked is the text you need to remove in order to prevent the leaves from spawing
 

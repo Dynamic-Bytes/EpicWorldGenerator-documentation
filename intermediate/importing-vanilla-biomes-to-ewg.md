@@ -1,11 +1,9 @@
 # Importing vanilla biomes to EWG
 
-
-
 The plugin allow you to import vanilla biomes into the plugin. You will need to follow a couple of steps to do this without corrupting or ruining the world.
 
 1. Create a new custom biome \([see this guide](create-a-custom-biome.md)\)
-2. Make the custom biome spawn by editing the world settings \([see this guide](../world-settings-world-settings.json.md)\)
+2. Make the custom biome spawn by editing the world settings \([see this guide](../beginner/world-settings-world-settings.json.md)\)
 3. Add the native biome settings;
 
 ```javascript
@@ -34,8 +32,8 @@ The plugin allow you to import vanilla biomes into the plugin. You will need to 
 ```
 
 The native biome name can be found using the ID to the biome. The ID to biome can be found here;  
-[http://minecraft.gamepedia.com/Biome](http://minecraft.gamepedia.com/Biome)  
-  
+[http://minecraft.gamepedia.com/Biome](http://minecraft.gamepedia.com/Biome)
+
 The table to find the right name can be found here. It is snippet of the biome code in spigot 1.11 \(second name in the "table", eg "mushroom\_island\_shore"\);  
 [http://pastebin.com/ZqPqWhGq](http://pastebin.com/ZqPqWhGq)
 

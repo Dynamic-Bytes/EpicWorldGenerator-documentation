@@ -9,11 +9,11 @@
 
 ## Configuration - Beginner <a id="beginner"></a>
 
-* [Get started with world configuration](get-started-with-world-configuration.md)
-* [World settings \(world-settings.json\)](world-settings-world-settings.json.md)
-* [Generate world from image](generate-world-from-image.md)
-* [Manage biomes](manage-biomes.md)
-* [Customize ores](customize-ores.md)
+* [Get started with world configuration](beginner/get-started-with-world-configuration.md)
+* [World settings \(world-settings.json\)](beginner/world-settings-world-settings.json.md)
+* [Generate world from image](beginner/generate-world-from-image.md)
+* [Manage biomes](beginner/manage-biomes.md)
+* [Customize ores](beginner/customize-ores.md)
 
 ## Configuration - INTERMEDIATE <a id="intermediate"></a>
 

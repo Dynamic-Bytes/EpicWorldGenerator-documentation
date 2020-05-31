@@ -4,7 +4,7 @@ description: Disable and enable biomes
 
 # Manage biomes
 
-### Disable biomes
+## Disable biomes
 
 1. Go to the settings folder for biomes \(&lt;server dir&gt;/&lt;world&gt;/settings/biomes\)
 2. Open the file to the biome\(s\) you want to disable

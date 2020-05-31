@@ -1,7 +1,5 @@
 # Get started with world configuration
 
-
-
 EpicWorldGenerator is a per world generator, meaning it will create a new instance for each world it generate. This allows you to configure the plugin for each world.
 
 The configuration files for each for is located at;
