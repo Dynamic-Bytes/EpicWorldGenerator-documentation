@@ -30,7 +30,8 @@ In order for you to verify any purchases, you must follow a few steps. You must 
 
 #### Example
 
-A correct verification app looks like follows; _This is for the spigot account named DynamicBytes, which has discord ID 012345678910111213 and purchased EpicWorldGenerator._
+A correct verification app looks like follows;   
+_This is for the spigot account named DynamicBytes, which has discord ID 012345678910111213 and purchased EpicWorldGenerator._
 
 > **Plugins:** \[EpicWorldGenerator\]
 >
