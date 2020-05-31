@@ -25,7 +25,7 @@
 
 ## ADVANCED
 
-* [Block conditions and probability](advanced/untitled.md)
+* [Block conditions and probability](advanced/block-conditions-and-probability.md)
 * [Custom terrain using noise](advanced/custom-terrain-using-noise.md)
 
 ## Support

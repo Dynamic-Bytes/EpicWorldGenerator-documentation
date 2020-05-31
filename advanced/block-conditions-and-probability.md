@@ -1,10 +1,14 @@
+---
+description: Advanced block placing for masters
+---
+
 # Block conditions and probability
 
 All blocks is placed based on configuration options. To accomply with this, some more advanced settings was implemented.
 
 The settings that was implemented may look simple, but they offer quite advanced features. It implement support for dependent and indepentendent proabillity and also condition based block selections.
 
-## Conditions
+### Conditions
 
 Their are multiple conditions a block can be placed on. You can combine them how you want. "Or" statement can be a comlied by adding the block multiple times.
 
@@ -14,7 +18,7 @@ Here is the current conditions;
 * Inclination condition
 * Relative altitude condition
 
-#### HEIGHT CONDITION
+**Height condition**
 
 ```text
 "heightConditions": [
@@ -31,7 +35,7 @@ Here is the current conditions;
 
 The conditon allows you to make the block only spawn between certain heights.
 
-#### INCLINATION CONDITION
+**Inclination condition**
 
 The plugin take out raw data of the terrain and find out the height differences between the location and the locations around. The value can be compared with the absolute value of derivative to the terrain generated in a 3D. See "derivative"; [https://en.wikipedia.org/wiki/Derivative](https://en.wikipedia.org/wiki/Derivative)
 
@@ -50,7 +54,7 @@ The plugin take out raw data of the terrain and find out the height differences 
 
 The condition is mostly used to place blocks in crags.
 
-## Probability
+### Probability
 
 Block groups are automaticly assigned into dependent and independent groups.
 
@@ -152,4 +156,12 @@ Lets explain with an example. Taken this configuration example;
 The example above is using indepentent proability by putting each of the blocks that can be generated into its own group. This mean the plugin go thru to each of the groups until it find a block that fits.
 
 Normally, by putting all of the blocks into the same group, the probillity for the next block to be choosen would increase with the proability of the other block to picked.
+
+#### Support
+
+Please try to resolve this yourself, as even the most experienced amongst our support have serious trouble doing this themselves, let alone explain it.
+
+If you dont care, and have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+
+**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
