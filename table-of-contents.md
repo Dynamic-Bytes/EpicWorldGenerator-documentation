@@ -17,7 +17,7 @@ description: All pages in this wiki are listed here
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
 
-    > Everything above this point has been completed \(Apart from possible additions to the FAQ and edits to the Recommended Installation\)
+    > Everything above this point has been completed \(Apart from edits to the Recommended Installation, on which I am collaborating with one of the community's members.\)
 
   * [Biome settings](https://docs.dynamic-bytes.com/beginner/biome-settings)
     * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)

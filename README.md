@@ -22,3 +22,10 @@ The table of contents can be found [here](https://docs.dynamic-bytes.com/table-o
 
 You can contact the support team through our [Discord](https://discord.gg/Jq3ecb3).
 
+#### Contributors
+
+This wiki has been made possibly by the hard work of the following users \(semi-ranked based on effort\):  
+Minelazz  
+Jake  
+Coco
+
