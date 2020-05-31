@@ -8,8 +8,8 @@
 
 * [Basic installation](beginner/basic-installation.md)
 * [World configuration](beginner/world-configuration-main.md)
-  * [World settings](beginner/world-settings-world.md)
-  * [Biome settings](beginner/world-settings-biomes.md)
+  * [World settings](beginner/world-configuration-world.md)
+  * [Biome settings](beginner/world-configuration-biomes.md)
     * [Customize ores](beginner/customize-ores.md)
   * [Generate world from image](beginner/generate-world-from-image.md)
 
