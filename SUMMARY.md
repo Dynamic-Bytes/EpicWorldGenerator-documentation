@@ -3,7 +3,7 @@
 * [Getting started](README.md)
 * [Table of Contents](table-of-contents.md)
 * [Commands](commands.md)
-* [Verify your purchase](verify-your-purchase.md)
+* [Verify your purchase](verification.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 
 ## BEGINNER
