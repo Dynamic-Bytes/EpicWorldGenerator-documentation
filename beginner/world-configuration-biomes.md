@@ -1,6 +1,4 @@
----
-description: Disable and enable biomes
----
+Work in progress
 
 # Manage biomes
 
