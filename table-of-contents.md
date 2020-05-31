@@ -2,6 +2,7 @@
 
 * [Getting started](main.md)
 * [Commands](commands.md)
+* [Verification](verification.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 
 ## Configuration - Beginner
