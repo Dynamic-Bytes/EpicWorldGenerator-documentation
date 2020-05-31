@@ -92,7 +92,7 @@ The chance for a mineshaft to be generated per chunk \(percentage value\). This 
 ##### World border
 The plugin allows you to make the world stop generating after it has reached a certain square-shaped world border. You can set the radius \(technically half of the length of the square, since it is not a circle\) by using the following option;
 
-![World border example](http://i.imgur.com/X9xBvlG.png)
+![World border example](http://i.imgur.com/X9xBvlG.png "Imaeg of a world border")
 
 ```javascript
   "worldSize": 500, //Disable = -1
@@ -107,7 +107,7 @@ The center of the world border will be at;
 
 ##### Flat areas
 
-![Flat area example](http://i.imgur.com/MzXyi83.png)
+![Flat area example](http://i.imgur.com/MzXyi83.png "Image of a flat area")
 
 The plugin can generate mutliple flat areas around the world. It will have a random (circular based) shape that should fit the terrain. On the image above is it shaped somewhat like a sphere, something that now has been replaced with more limiting circular shapes.
 
@@ -137,7 +137,7 @@ The next parts of the configuration file is about biomes. In EWG, they are group
 
 Here is an illustration created by Xemnes that shows the difference between biomes and biome types;  
 
-![Biome sizes](http://i.imgur.com/BOfhWoy.png)
+![Biome sizes](http://i.imgur.com/BOfhWoy.png "Image of biome sizes")
 
 The size of the red line can be decreased or increased by editing the following option;
 
@@ -181,6 +181,6 @@ The red lines are by default adjusted to a size that fits the amount of biomes i
 ```
 
 ### Support
-If you have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+If you have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3 "Link to our Discord").
 
-#### Back to: [Table of contents](../table-of-contents.md).
+#### Back to: [Table of contents](../table-of-contents.md "Link to table of contents").
