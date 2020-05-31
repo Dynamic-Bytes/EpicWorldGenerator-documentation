@@ -4,7 +4,7 @@ description: Test file for reffering to other files.
 
 # Test File
 
-* [Getting started](main.md)
+* [Getting started](https://docs.dynamic-bytes.com)
 * [Commands](commands.md)
 * [Verification](verification.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
