@@ -20,7 +20,7 @@ description: All pages in this wiki are listed here
     > Everything above this point has been completed \(Apart from possible additions to the FAQ and edits to the Recommended Installation\)
 
   * [Biome settings](https://docs.dynamic-bytes.com/beginner/biome-settings)
-    * [Customize ores](https://docs.dynamic-bytes.com/beginner/customize-ores)
+    * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 
 **Configuration - Intermediate**
