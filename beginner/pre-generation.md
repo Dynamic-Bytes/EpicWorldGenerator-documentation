@@ -29,7 +29,7 @@ After completing the basic EWG installation, adding any custom biomes you might 
 ### [Chunkmaster](https://www.spigotmc.org/resources/chunkmaster.71351/ "Link to Chunkmaster")
 *(Click the title for a link to the plugin)*
 
-> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM, but keep in mind that 5 GB or more is still needed for this to work properly.
+> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM than WorldBorder, but keep in mind that 5 GB or more is still advisabel for this to work at reasonable performance or better.
 
 > For the highest speed of generation, use this plugin on Paper, rather than Spigot.
 
