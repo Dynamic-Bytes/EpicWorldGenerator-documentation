@@ -20,7 +20,7 @@
 ## INTERMEDIATE
 
 * [Create a custom biome](intermediate/create-biome.md)
-* [Create structures](intermediate/untitled.md)
+* [Create structures](intermediate/create-structure.md)
 * [Importing vanilla biomes](intermediate/importing-vanilla-biomes.md)
 
 ## ADVANCED
