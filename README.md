@@ -12,11 +12,11 @@ Congratulations on selecting EpicWorldGenerator as your world generator! Your se
 
 #### Default installation guide
 
-An easy-to-understand installation guide can be found [here](beginner/basic-installation.md).
+An easy-to-understand installation guide can be found [here](https://docs.dynamic-bytes.com/beginner/basic-installation).
 
 #### Table of contents
 
-The table of contents can be found [here](SUMMARY.md).
+The table of contents can be found [here](https://docs.dynamic-bytes.com/table-of-contents).
 
 #### Support
 
