@@ -15,7 +15,7 @@ description: All pages in this wiki are listed here
 * [Recommended installation](https://docs.dynamic-bytes.com/beginner/recommended-installation)
 * [Pre-generation](https://docs.dynamic-bytes.com/beginner/pre-generation)
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
-  * [World settings](https://docs.dynamic-bytes.com/beginner/world-configuration-world)
+  * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
 
     > Everything above this point has been completed \(Apart from possible additions to the FAQ and edits to the Recommended Installation\)
 
