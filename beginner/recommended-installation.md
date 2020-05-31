@@ -20,11 +20,11 @@ This is our recommendation as to how to install the plugin to make it perform as
 
 > Other options would be the [Maiskorf's Mars and / or Moon Landscapes](https://discordapp.com/channels/576841187256827905/576844840847802398/714083091504693278) or the [Mushroom-Tree Biome by Zikiv](https://discordapp.com/channels/576841187256827905/576844840847802398/710821492321157170).
 
-![Maiskorf&apos;s Mars Landscapes](../.gitbook/assets/afbeelding%20%283%29.png)
+![Maiskorf&apos;s Mars Landscapes](../.gitbook/assets/afbeelding%20%287%29.png)
 
-![Maiskorf&apos;s Moon Landscapes](../.gitbook/assets/afbeelding%20%284%29.png)
+![Maiskorf&apos;s Moon Landscapes](../.gitbook/assets/afbeelding%20%286%29.png)
 
-![Zikiv&apos;s Mushroom Biome](../.gitbook/assets/afbeelding%20%285%29.png)
+![Zikiv&apos;s Mushroom Biome](../.gitbook/assets/afbeelding%20%288%29.png)
 
 #### Installing
 

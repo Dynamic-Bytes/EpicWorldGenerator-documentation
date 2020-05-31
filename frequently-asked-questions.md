@@ -93,11 +93,11 @@ Occasionally, upon a fresh install \(first time you run the server with the plug
   
 Type 1 - Invalid license
 
- ![Invalid License Log](https://i.imgur.com/xzs3tsy.png)   
-  
+![](.gitbook/assets/afbeelding%20%283%29.png)
+
 Type 2 - Unable to reach backend servers
 
- ![Connection error log](https://i.imgur.com/xnjGbb1.png)
+![](.gitbook/assets/afbeelding.png)
 
 These issues are ususally a connection issue between your and our server\(s\). The main way this can be resolved \(from your end, at first\) is by checking your firewall settings and making sure you have a working internet connection for your server. If you did both those things, and it is still not working, make sure to reach out to our [Discord](https://discord.gg/Jq3ecb3) support team.
 
@@ -105,7 +105,7 @@ These issues are ususally a connection issue between your and our server\(s\). T
 
 **VI.I Issue with moisture**
 
-![Moisture crash log](https://i.imgur.com/3vTriQt.png) 
+![](.gitbook/assets/afbeelding%20%284%29.png)
 
 This issue is caused by an update to the way dataTags are handeled in EWG. It is no longer required to use the datatags, and they must be removed. This should be done by default in the latest version of the plugin. Navigate to the following file: `*/<world name>/settings/biomes/default/farmland.json`, Scroll down to the part that looks like the following \(should be around line 590, before the custom structures\):
 
@@ -131,7 +131,7 @@ Restart the server, and you should be good to go.
 
 Pre-generating a world is always recommended in order to prevent issues with missing chunks. Example: ![Missing chunks](https://i.imgur.com/PGN28u3.png)
 
-Click [here](beginner/pre-generation.md) to get a guide.
+Click [here](https://docs.dynamic-bytes.com/beginner/pre-generation) to get a guide.
 
 #### VIII. How do I disable biomes I don't like?
 
