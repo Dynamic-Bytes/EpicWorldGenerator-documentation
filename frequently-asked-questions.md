@@ -78,7 +78,7 @@ The reason no ores are spawning in your world is because of recent changes to th
 
 1. Find your world folder and locate the settings folder that EWG created \(`*<world name>/settings`\).
 2. Download the .rar folder from [here](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755) and replace the biomes folders in the settings folder with its contents. \(`*/<world name>/settings/biomes`\).
-3. Download the .zip file from \([here](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and copy-paste **only** the EpicWorldGenerator folder to your `*/plugins` folder, replacing the one already in there.
+3. Download the .zip file from [here](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and copy-paste **only** the EpicWorldGenerator folder to your `*/plugins` folder, replacing the one already in there.
 4. Remove all the region files from your world after stopping your server. \(`*/<world name>/region`\).
 
    > This will remove the world in its whole.
