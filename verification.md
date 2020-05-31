@@ -14,10 +14,7 @@ In order for you to verify any purchases, you must follow a few steps. You must 
    > You can find your Discord ID by enabling developer mode \(found under `Settings -> Appearance -> Advanced -> "Developer Mode"`\), right clicking on your name \(on any message in discord\) and clicking "Copy ID".
 
 3. Paste the discord ID in your [Spigot Status](https://www.spigotmc.org/account/) \(at the top\) and hit `enter`.
-4. Go to our [Discord](https://discordapp.com/channels/576841187256827905/588109256377499667/) 
-
-   \(should take you to the [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/) channel\).
-
+4. Go to our [Discord](https://discordapp.com/channels/576841187256827905/588109256377499667/) \(should take you to the [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/) channel\).
 5. Post a message using the following format \(copy-pasting this is the easiest\):
 
    > Remove the plugins you **did not** purchase. Replace yourAccount.yourID with your spigot account name and ID, respectively.
