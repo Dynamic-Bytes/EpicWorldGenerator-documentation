@@ -59,8 +59,8 @@ In the vast majority of the cases in which this occurs, it is cuased by user-err
 It is limited what you can do to resolve the problem, but here are some tips;
 
 * Delete the region files \(See [Region file tool](https://dinnerbone.com/minecraft/tools/coordinates/ "Link to Dinnerbone's region finder tool") for chunk/coordinate to file conversion\). The chunk files are saved at `*/<world name>/region/*`.
-* Trim the world using world border, if the new chunks are on the edge of the map; [WorldBorder Plugin](http://dev.bukkit.org/bukkit-plugins/worldborder/ "Link to WorldBorder"), using the `/worldborder trim` command.
-* Overhaul **all** the chunks in the world using the force generation toold provided by [WorldBorder](http://dev.bukkit.org/bukkit-plugins/worldborder/ "Link to WorldBorder"); `/worldborder fill 20 208 true`.
+* Trim the world using world border, if the new chunks are on the edge of the map; [WorldBorder Plugin](https://www.spigotmc.org/resources/worldborder.60905/ "Link to WorldBorder"), using the `/worldborder trim` command.
+* Overhaul **all** the chunks in the world using the force generation toold provided by [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/ "Link to WorldBorder"); `/worldborder fill 20 208 true`.
 * Use the world edit's `//regen` command.
 
 ### IV. Why are there no ores in my world?
