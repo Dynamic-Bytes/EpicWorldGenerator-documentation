@@ -16,3 +16,7 @@ An easy-to-understand installation guide can be found [here](beginner/basic-inst
 ### Table of contents
 
 The table of contents can be found [here](table-of-contents.md).
+
+### Support
+
+You can contact the support team through our [Discord](https://discord.gg/Jq3ecb3).
