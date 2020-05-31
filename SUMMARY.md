@@ -2,29 +2,30 @@
 
 * [Getting started](README.md)
 * [Table of Contents](table-of-contents.md)
+* [Commands](commands.md)
+* [Verify your purchase](verify-your-purchase.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 
-## Usage
+## BEGINNER
 
-* [Commands](usage/commands.md)
-
-## Configuration - Beginner <a id="beginner"></a>
-
-* [Get started with world configuration](beginner/get-started-with-world-configuration.md)
-* [World settings \(world-settings.json\)](beginner/world-settings-world-settings.json.md)
+* [Basic installation](beginner/basic-installation.md)
+* [Recommended installation](beginner/recommended-installation.md)
+* [Pre-generation](beginner/pre-generation.md)
+* [World configuration](beginner/world-configuration.md)
+* [World settings](beginner/world-settings.md)
+* [Biome settings](beginner/biome-settings.md)
+* [Customise ores](beginner/customise-ores.md)
 * [Generate world from image](beginner/generate-world-from-image.md)
-* [Manage biomes](beginner/manage-biomes.md)
-* [Customize ores](beginner/customize-ores.md)
 
-## Configuration - INTERMEDIATE <a id="intermediate"></a>
+## INTERMEDIATE
 
-* [Create your own structures](intermediate/create-your-own-structures.md)
-* [Create a custom biome](intermediate/create-a-custom-biome.md)
-* [Importing vanilla biomes to EWG](intermediate/importing-vanilla-biomes-to-ewg.md)
+* [Create a custom biome](intermediate/create-biome.md)
+* [Create structures](intermediate/untitled.md)
+* [Importing vanilla biomes](intermediate/importing-vanilla-biomes.md)
 
-## Configuration - ADVANCED <a id="advanced"></a>
+## ADVANCED
 
-* [Block conditions and probability](advanced/block-conditions-and-probability.md)
+* [Block conditions and probability](advanced/untitled.md)
 * [Custom terrain using noise](advanced/custom-terrain-using-noise.md)
 
 ## Support

@@ -1,3 +1,7 @@
+---
+description: Making your terrain do crazy stuff; masters only
+---
+
 # Custom terrain using noise
 
 Mostly all terrain generated in EpicWorldGenerator is generated using gradient noise. Here is what wikipedia says about gradient noise;
@@ -14,12 +18,12 @@ If "useOpenSimplexNoise" is set to false then that gives access to the plugin to
 
 Perlin is for servers who have more ram, and can use more CPU. Although both Open Simplex and Perlin are much alike, Open Simplex is recommended for those who don't have a server with a lot of ram or CPU usage. Perlin does create better quality terrain, however, uses more performance than open simplex.
 
-### How does perlin noise look like?
+#### How does perlin noise look like?
 
 Well, it simply look something like this;  
 ![render-noise.png](http://www.redblobgames.com/maps/terrain-from-noise/images/render-noise.png)
 
-### Creating terrain out of the noise
+#### Creating terrain out of the noise
 
 To simplify the process will we now start to look into 1 dimensional noise instead of 2D.
 
@@ -33,11 +37,13 @@ If we put all the layers on top of each other, we get a terrain looking like thi
 This noise will be stacked on top of the existing terrain. Without noise will the plugin generate a landscape at the height of the "baseheight" property that can be found in the biome. Here is illustration of how it looks like in EWG;  
 ![](http://i.imgur.com/LZctDD6.png)
 
-The green line indicate the base height. The blue indicate the water level. The black line that is wave is the main noise layer. The gray wave is the next layer, that has higher frequency and lower scale. The height in the world is here;  
-+ the baseheight  
-+ main layer   
-+ secondary noise layer.  
-= Terrain height
+The green line indicate the base height. The blue indicate the water level. The black line that is wave is the main noise layer. The gray wave is the next layer, that has higher frequency and lower scale. The height in the world is here;
+
+* the baseheight  
+* main layer   
+* secondary noise layer.  
+
+  = Terrain height
 
 The baseheight property is explained more below.
 
@@ -55,7 +61,7 @@ First of all, lets implement the data we need for custom terrain before we get s
 
 Guide: [http://jetpad.io/index.php?id=5153513](http://jetpad.io/index.php?id=5153513)
 
-### Implement your terrain
+#### Implement your terrain
 
 ```javascript
   "customTerrain": {
@@ -138,4 +144,12 @@ Configuration for pasting - [http://raw.jetpad.io/index.php?id=30a32c0](http://r
 This configuration is by far the most complicated one in EpicWorldGenerator. Though we try to explain things as clearly as possible, some things may not be able to come clearly to you as it did with us. We have gave recommended numbers for several parts during the configuration, please use those if you do not know what to do. Good luck with your own terrain!
 
 This configuration requires much patience, and should be carefully configured. If you are doing this for the first time, you will have to go through different combinations to find the perfect match for you. Although many things will be challenging, please keep trying as that is the reason why this feature was implemented.
+
+#### Support
+
+Please try to resolve this yourself, as even the most experienced amongst our support have serious trouble doing this themselves, let alone explain it.
+
+If you dont care, and have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+
+**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 

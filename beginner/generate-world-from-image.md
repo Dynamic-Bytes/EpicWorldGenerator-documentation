@@ -1,5 +1,5 @@
 ---
-description: 'Create a world from an image, take full control over the world'
+description: 'You can take full control over the generation of your world, block by block.'
 ---
 
 # Generate world from image
@@ -8,19 +8,19 @@ description: 'Create a world from an image, take full control over the world'
 
 Take full control of the plugin by telling the plugin to create a world based on an image you give it. Paint every detail of the world, for example, islands, river etc., or even generate a world based on your server logo.
 
-## Example
+### Example
 
 To give you an example, we created "The earth" as Minecraft map ![Map](http://i.imgur.com/AV2md6W.png)
 
-### Image vs dynmap
+#### Image vs dynmap
 
 [http://i.imgur.com/SiJ6ccr.mp4](http://i.imgur.com/SiJ6ccr.mp4)
 
-### In-game images
+#### In-game images
 
 ![ingame](http://i.imgur.com/b84tZgQ.png) ![ingame](http://i.imgur.com/O4uIC8B.png) ![ingame](http://i.imgur.com/4MuaNdJ.png)
 
-## Generate your own image based world
+### Generate your own image based world
 
 1. Enable the feature in the config file to EWG \(located in the plugin folder\) `"enableGeneratorSwap": true` 
 2. Place a png image into the world folder of the world you want to create
@@ -30,9 +30,11 @@ To give you an example, we created "The earth" as Minecraft map ![Map](http://i.
 3. Start the server
 4. Import the world with /mv import  normal
 
-In the example above. We used this image, named it map.png and placed it in the folder; [https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole\_world\_-\_land\_and\_oceans\_12000.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg)
+In the example above. We used this image, named it map.png and placed it in the folder; 
 
-## Take control
+![https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole\_world\_-\_land\_and\_oceans\_12000.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg)
+
+### Take control
 
 Each biome have its own colour property. This property is used to find the closest biome match to an pixel in the image. You can add multiple colours to each biome using the config files for each biomes. Inside the config file, you will find something like this:
 
@@ -44,4 +46,10 @@ Each biome have its own colour property. This property is used to find the close
 ```
 
 Add or change colours here to link the biomes to different colours on the image.
+
+#### Support
+
+If you have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+
+**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
