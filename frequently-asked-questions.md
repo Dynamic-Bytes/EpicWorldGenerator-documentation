@@ -1,12 +1,18 @@
 # Frequently Asked Questions
 
 ## Contents:
-1. Where do I find the configuration files?
-2. Where can I find pre-made configurations?
-3. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
-4. Why are there no ores in my world?
+* I. Where do I find the configuration files?
+* II. Where can I find pre-made configurations?
+* III. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
+* IV. Why are there no ores in my world?
+* V. Why does my server not start?
+  * V.I Issue with verification / backend server
+* VI. Why does my server randomly crash?
+  * VI.I Issue with moisture
+  * VI.II Issue with missing structure(s)
+  
 
-### 1. Where do I find the configuration files?
+### I. Where do I find the configuration files?
 
 All of the following settings can be found in this folder:
 * World settings
@@ -35,11 +41,11 @@ The schematics and general settings can be found at;
 */plugins/EpicWorldGenerator/EWGFiles # Folder with schematics.
 ```
 
-### 2. Where can I find pre-made configurations?
+### II. Where can I find pre-made configurations?
 
 Type `/ewg createworld` for a default preset, or visit the media channel in our [Discord](https://discord.gg/Jq3ecb3), which you can access after you [#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/588110048543375391) \(make sure to carefully follow the instructions\) by clicking here: [#media](https://discordapp.com/channels/576841187256827905/576844840847802398).
 
-### 3. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
+### III. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
 
 In the vast majority of the cases in which this occurs, it is cuased by user-error. The most common reasons are as follows;
 
@@ -56,7 +62,7 @@ It is limited what you can do to resolve the problem, but here are some tips;
 * Overhaul **all** the chunks in the world using the force generation toold provided by [WorldBorder](http://dev.bukkit.org/bukkit-plugins/worldborder/); `/worldborder fill 20 208 true`.
 * Use the world edit's `//regen` command.
 
-### 4. Why are there no ores in my world?
+### IV. Why are there no ores in my world?
 The reason no ores are spawning in your world is because of recent changes to the way ores are generated.
 You can get your ores back by doing the following:
 
@@ -66,6 +72,42 @@ You can get your ores back by doing the following:
 4. Remove all the region files from your world after stopping your server. (`*/<world name>/region`).
 > This will remove the world in its whole.
 5. Start the server (and pre-generate the world).
+
+### V. Why does my server not start?
+
+#### V.I Issue with verification / backend server
+Occasionally, upon a fresh install (first time you run the server with the plugin on it), the server will raise an error with the plugin not being able to activate. There are two types;
+Type 1 - Invalid license
+![Invalid license img](https://i.imgur.com/xzs3tsy.png "Invalid License Log")
+Type 2 - Unable to reach backend servers
+![Connection error img](https://i.imgur.com/xnjGbb1.png "Connection error log")
+
+These issues are ususally a connection issue between your and our server(s).
+The main way this can be resolved (from your end, at first) is by checking your firewall settings and making sure you have a working internet connection for your server.
+If you did both those things, and it is still not working, make sure to reach out to our [Discord](https://discord.gg/Jq3ecb3) support team.
+
+### VI. Why does my server randomly crash?
+
+#### VI.I Issue with moisture
+![Image of moisture crash log](https://i.imgur.com/3vTriQt.png "Moisture crash log")
+This issue is caused by an update to the way dataTags are handeled in EWG.
+It is no longer required to use the datatags, and they must be removed. This should be done by default in the latest version of the plugin.
+Navigate to the following file:
+`*/<world name>/settings/biomes/default/farmland.json`
+Scroll down to the part that looks like the following (should be around line 590, before the custom structures):
+```json
+    "fieldGroundBlock": {
+      "type": "FARMLAND",
+      "data": 7,
+      "chance": 0.0
+    }
+```
+Replace this **entire** block of code with the following:
+```json
+    "fieldGroundBlock": []
+```
+Restart the server, and you should be good to go.
+> Make sure to also remove the closing `}`.
 
 ### Support
 If you are still having issues after attempting to resolve your issue using this file,
