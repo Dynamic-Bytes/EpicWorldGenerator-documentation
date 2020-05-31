@@ -29,4 +29,4 @@ I do not want this plugin to change these worlds so I change the `worldsWithDefa
 7. Start the server.
 8. Enjoy the plugin!
 
-#### Back to: [Table of contents](table-of-contents.md).
+#### Back to: [Table of contents](*/table-of-contents.md).
