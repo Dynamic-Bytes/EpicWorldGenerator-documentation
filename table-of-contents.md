@@ -8,6 +8,7 @@
 ## Configuration - Beginner
 
 * [Basic installation](beginner/basic-installation.md)
+* [Pre-generation](beginner/pre-generation.md)
 * [World configuration](beginner/world-configuration-main.md)
   * [World settings](beginner/world-configuration-world.md)
 > Everything above this point has been completed (Apart from possible additions to the FAQ and edits to Basic Installation)
