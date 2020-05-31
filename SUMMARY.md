@@ -11,17 +11,17 @@
 * [Basic installation](beginner/basic-installation.md)
 * [Recommended installation](beginner/recommended-installation.md)
 * [Pre-generation](beginner/pre-generation.md)
-* [World configuration](beginner/world-configuration.md)
-* [World settings](beginner/world-settings.md)
-* [Biome settings](beginner/biome-settings.md)
-* [Customise ores](beginner/customise-ores.md)
-* [Generate world from image](beginner/generate-world-from-image.md)
+* [World configuration](beginner/world-configuration/README.md)
+  * [Generate world from image](beginner/world-configuration/generate-world-from-image.md)
+  * [World settings](beginner/world-configuration/world-settings.md)
+  * [Biome settings](beginner/world-configuration/biome-settings/README.md)
+    * [Customise ores](beginner/world-configuration/biome-settings/customise-ores.md)
 
 ## INTERMEDIATE
 
-* [Importing vanilla biomes](intermediate/vanilla-biomes.md)
 * [Create a custom biome](intermediate/create-biome.md)
 * [Create structures](intermediate/create-structure.md)
+* [Importing vanilla biomes](vanilla-biomes.md)
 
 ## ADVANCED
 
