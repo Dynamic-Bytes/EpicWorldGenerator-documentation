@@ -1,4 +1,4 @@
-# Importing vanilla biomes
+# Importing vanilla biomes to EWG
 
 
 
