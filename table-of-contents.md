@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Getting started](main.md)
+* [Commands](commands.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 
 ## Configuration - Beginner
 
 * [Basic installation](beginner/basic-installation.md)
-* [Commands](beginner/commands.md)
 * [World configuration](beginner/world-configuration-main.md)
   * [World settings](beginner/world-settings-world.md)
   * [Biome settings](beginner/world-settings-biomes.md)
