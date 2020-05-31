@@ -231,7 +231,9 @@ If you want the plugin to generate custom trees instead of the default minecraft
   "overrideSaplings": true
 ```
 
+{% hint style="info" %}
 > Below this setting are the individual tree files for each of the saplings respectively. You can remove default and add custom trees here to your liking.
+{% endhint %}
 
 #### Support
 
