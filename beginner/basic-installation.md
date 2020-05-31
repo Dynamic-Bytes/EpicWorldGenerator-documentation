@@ -1,6 +1,6 @@
 # Basic installation
 This is the simplest and fastest way of installing this plugin.
-If you have any issues with any of the steps in this process, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+If you have any issues with any of the steps in this process, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3 "Link to our Discord").
 
 1. Stop your server. 
 2. Delete the `*/world` folder.
@@ -25,8 +25,8 @@ I do not want this plugin to change these worlds so I change the `worldsWithDefa
     "melon"
   ],
 ```
-6. Possibly install the add-on [Tree Feller](https://www.spigotmc.org/resources/tree-feller-ewg-addon.20385/).
+6. Possibly install the add-on [Tree Feller](https://www.spigotmc.org/resources/tree-feller-ewg-addon.20385/ "Link to treefeller").
 7. Start the server.
 8. Enjoy the plugin!
 
-#### Back to: [Table of contents](../table-of-contents.md).
+#### Back to: [Table of contents](../table-of-contents.md "Link to table of contents").
