@@ -83,7 +83,7 @@ After completing the basic EWG installation, adding any custom biomes you might 
 5. Start the generation by using: `/chunkmaster generate <world name> <distance> blockradius`.
 
 {% hint style="info" %}
-> Replace `<world name>` by the exact, higher- and lowercase sensitive, name of the world \(usually "world"\). Also, replace `<distance>` with the amount of blocks you want in all directions \(makes a square\). Example \(using "world" and a 100.000 block radius\): `/chm generate world 100000 blockradius`.
+> Replace `<world name>` by the exact, higher- and lowercase sensitive, name of the world \(usually "world"\). Also, replace `<distance>` with the amount of blocks you want in all directions \(makes a square\). Example \(using "world" and a 10,000 block radius\): `/chm generate world 10000 blockradius`.
 {% endhint %}
 
 6. Leave the server \(so the generation task starts, unless you have `pause-on-join:` set to `false`\).  
