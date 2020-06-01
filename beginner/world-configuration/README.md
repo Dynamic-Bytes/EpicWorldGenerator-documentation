@@ -29,7 +29,7 @@ Each of the individual settings can then be found under:
 
 #### More on this topic
 
-* [World settings](https://docs.dynamic-bytes.com/world-settings)
+* [World settings](https://docs.dynamic-bytes.com/beginner/world-configuration/world-settings)
 * [Biome settings](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
 * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
