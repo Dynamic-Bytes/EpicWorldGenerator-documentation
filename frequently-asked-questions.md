@@ -11,7 +11,7 @@ description: The FAQ section - Quite a few regular issues are listed here
 * III. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
 * IV. Why are there no ores in my world?
 * V. Why does my server not start?
-  * V.I Issue with verification / backend server
+  * V.I Issue with verification / back-end server
 * VI. Why does my server randomly crash?
   * VI.I Issue with moisture
   * VI.II Issue with missing structure\(s\)
@@ -48,33 +48,37 @@ The schematics and general settings can be found at;
 */plugins/EpicWorldGenerator/EWGFiles # Folder with schematics.
 ```
 
+{% hint style="success" %}
+> In most of the guides on this wiki, there are references to the locations of the files.
+{% endhint %}
+
 #### II. Where can I find pre-made configurations?
 
-Type `/ewg createworld` for a default preset, or visit the media channel in our [Discord](https://discord.gg/Jq3ecb3), which you can access after you [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/588110048543375391) \(make sure to carefully follow the instructions\) by clicking here: [\#media](https://discordapp.com/channels/576841187256827905/576844840847802398).
+Type `/ewg createworld` for a default preset \(which comes with the plugin\), or visit the [\#media](https://discordapp.com/channels/576841187256827905/576844840847802398) channel in our [Discord](https://discord.gg/Jq3ecb3), which you can access after you [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/588110048543375391) \(make sure to carefully follow the instructions\).
 
 #### III. Why do "chunk borders", missing chunks and/or weird transitions appear in my world?
 
-In the vast majority of the cases in which this occurs, it is cuased by user-error. The most common reasons are as follows;
+In the vast majority of the cases in which this occurs, it is caused by user-error. The most common reasons are these;
 
 * Changes have been made in the configuration files after the first chunks have already been generated.
 
 {% hint style="danger" %}
-> Every time you do configuration changes that are not related to structures or terrain overlay, it is required to do a full reset of the world. You can do so by deleting the `*/<world name>/regions` folder from your world.
+> Every time you do configuration changes that are not related to structures or terrain overlay, it is required to do a full reset of the world. You can do so by deleting the `*/<world name>/regions` folder from your world \(and [pre-generating](https://docs.dynamic-bytes.com/beginner/pre-generation)\).
 {% endhint %}
 
-* You have updated the plugin and new and old versions are not compatible with eachother \(mainly occurs with transitions from v6 to v7, but the plugin should prevent you from updating by crashing the server and linking you to a guide on how you can migrate\)
-* Chunks had been generated in the world by vanilla minecraft before you installed the plugin.
+* You have updated the plugin and new and old versions are not compatible with each other \(mainly occurs with transitions from v6 to v7 or v7 to v8, but the plugin should prevent you from updating by crashing the server and linking you to a guide on how you can migrate\)
+* Chunks had been generated in the world by vanilla Minecraft before you installed the plugin.
 
 {% hint style="warning" %}
 > Before making a world with this plugin, you must make sure that the region folder \(`*/<world name>/regions`\) was removed right after the plugin was installed.
 {% endhint %}
 
-It is limited what you can do to resolve the problem, but here are some tips;
+It is limited as to what you can do to resolve the problem, but here are some option;
 
 * Delete the region files \(See [region file tool](https://dinnerbone.com/minecraft/tools/coordinates/) for chunk/coordinate to file conversion\). The chunk files are saved at `*/<world name>/region/`.
 * Trim the world using world border, if the new chunks are on the edge of the map; [WorldBorder Plugin](https://www.spigotmc.org/resources/worldborder.60905/), using the `/worldborder trim` command.
-* Overhaul **all** the chunks in the world using the force generation toold provided by [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/); `/worldborder fill 20 208 true`.
-* Use the world edit's `//regen` command.
+* Overhaul **all** the chunks in the world using the force generation tool provided by [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/); `/worldborder fill 20 208 true`.
+* Use the [WorldEdit ](https://dev.bukkit.org/projects/worldedit)`//regen` command.
 
 #### IV. Why are there no ores in my world?
 
@@ -83,13 +87,13 @@ The reason no ores are spawning in your world is because of recent changes to th
 1. Find your world folder and locate the settings folder that EWG created \(`*<world name>/settings`\).
 2. Download the .rar folder from [here](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755) and replace the biomes folders in the settings folder with its contents. \(`*/<world name>/settings/biomes`\).
 3. Download the .zip file from [here](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and copy-paste **only** the EpicWorldGenerator folder to your `*/plugins` folder, replacing the one already in there.
-4. Remove all the region files from your world after stopping your server. \(`*/<world name>/region`\).
+4. Remove all the region files from your world after stopping your server. \(`*/<world name>/region`\)
 
 {% hint style="danger" %}
 > This will remove the world in its whole.
 {% endhint %}
 
-1. Start the server \(and pre-generate the world\).
+   5. Start the server \(and [pre-generate](https://docs.dynamic-bytes.com/beginner/pre-generation) the world\).
 
 #### V. Why does my server not start?
 
@@ -101,11 +105,11 @@ Type 1 - Invalid license
 
 ![](.gitbook/assets/afbeelding%20%283%29.png)
 
-Type 2 - Unable to reach backend servers
+Type 2 - Unable to reach back-end servers
 
 ![](.gitbook/assets/afbeelding.png)
 
-These issues are ususally a connection issue between your and our server\(s\). The main way this can be resolved \(from your end, at first\) is by checking your firewall settings and making sure you have a working internet connection for your server. If you did both those things, and it is still not working, make sure to reach out to our [Discord](https://discord.gg/Jq3ecb3) support team.
+These issues are usually a connection issue between your and our server\(s\). The main way this can be resolved \(from your end, at first\) is by checking your firewall settings and making sure you have a working internet connection for your server. If you did both those things, and it is still not working, make sure to reach out to our [Discord](https://discord.gg/Jq3ecb3) support team.
 
 #### VI. Why does my server randomly crash?
 
