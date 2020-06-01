@@ -6,6 +6,10 @@ description: Guide on pre-generating your map. Advisable to prevent lag.
 
 This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more well-known and overall better integrated plugin \(works better with other plugins, ususally\). Though, on the other side, Chunkmaster is much, much faster when it comes to generating a world.
 
+{% hint style="success" %}
+> We advise you to make use of Chunkmaster for pre-generating your world over WorldBorder. This is because \(after thorough testing\) we found a 50% speed increase at the start, and no memory leak in the long term.
+{% endhint %}
+
 {% hint style="warning" %}
 > In order to be able to use this, make sure you [have EWG installed](basic-installation.md)
 {% endhint %}
@@ -68,17 +72,84 @@ After completing the basic EWG installation, adding any custom biomes you might 
 1. Download [Chunkmaster](https://www.spigotmc.org/resources/chunkmaster.71351/) and put it in your `*/plugins` folder.   
 2. Start the server to generate a configuration file for the plugin, and stop the server.   
 3. Locate and open the configuration file at `*/plugins/chunkmaster/config.yml`.   
-4. In this file, consider the following settings:
+4. In this file, consider the following presets:
 
-| Setting: default | Options | Description | Recommended |
-| :--- | :--- | :--- | :--- |
-| dynmap: true | true or false | Turns Dynmap support on or off, increases speed when off. | false |
-| max-loaded-chunks: 10 | positive round number \(integer\) | Higher means more RAM usage but higher speed, lower the opposite. | 10 to 20 |
-| max-pending-chunks: 10 | positive round number \(integer\) | Comparable to the one before, but impacts RAM more and also impacts CPU. | 10 to 20 |
-| period: 2 | positive round number \(integer\) | How many ticks between generation, best to keep at 2, unless your CPU runs full, then make it higher. | 2 |
-| chunks-per-step: 2 | positive round number \(integer\) | How many chunks are generated per period \(see setting above\), higher means severe performance increase, but also speeds up generation. | 2 or 3 |
-| chunk-skips-per-step: 20 | positive round number \(integer\) | How many already-generated chunks can be skipped every period \(see setting on period\). Higher means faster, but increases CPU load. | 20 |
-| pause-on-join: true | true or false | Stops the generation task when a player joins, best to keep on true, but make sure not to AFK on the server. | true |
+Low-end machines \(~5 GB RAM and low-end CPU's\):
+
+```text
+generation:
+  period: 2
+  chunks-per-step: 4
+  chunk-skips-per-step: 100
+  mspt-pause-threshold: 500
+  pause-on-join: false
+  max-pending-chunks: 15
+  max-loaded-chunks: 15
+  ignore-worldborder: true
+database:
+  filename: chunkmaster.db
+language: en
+dynmap: true
+```
+
+Mid-end machines \(~7 GB RAM and medium-end CPU's\):
+
+```text
+generation:
+  period: 2
+  chunks-per-step: 4
+  chunk-skips-per-step: 100
+  mspt-pause-threshold: 500
+  pause-on-join: false
+  max-pending-chunks: 20
+  max-loaded-chunks: 20
+  ignore-worldborder: true
+database:
+  filename: chunkmaster.db
+language: en
+dynmap: true
+```
+
+High-end machines \(&gt;8 GB RAM and medium-high-end CPU's\):
+
+```text
+generation:
+  period: 2
+  chunks-per-step: 4
+  chunk-skips-per-step: 100
+  mspt-pause-threshold: 500
+  pause-on-join: false
+  max-pending-chunks: 25
+  max-loaded-chunks: 25
+  ignore-worldborder: true
+database:
+  filename: chunkmaster.db
+language: en
+dynmap: true
+```
+
+Hosting server machines or extreme servers \(&gt;10 GB RAM and industrial CPU's used by hosting websites, many cores and threads\):
+
+```text
+generation:
+  period: 2
+  chunks-per-step: 4
+  chunk-skips-per-step: 100
+  mspt-pause-threshold: 500
+  pause-on-join: false
+  max-pending-chunks: 30
+  max-loaded-chunks: 30
+  ignore-worldborder: true
+database:
+  filename: chunkmaster.db
+language: en
+dynmap: true
+```
+
+{% hint style="info" %}
+> In all of these presets the `dynmap:`setting is on `true`.  
+> This allows you to render a [Dynmap](https://shockbyte.com/billing/knowledgebase/92/How-to-Set-Up-Dynmap.html) alongside generating the world, at the cost of about 10% performance. If you're not interested in a Dynmap, you are best off turning `dynmap:` to `false`.
+{% endhint %}
 
 5. Start the generation by using: `/chunkmaster generate <world name> <distance> blockradius`.
 
