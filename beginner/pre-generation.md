@@ -161,7 +161,12 @@ dynmap: true
 > Replace `<world name>` by the exact, higher- and lowercase sensitive, name of the world \(usually "world"\). Also, replace `<distance>` with the amount of blocks you want in all directions \(makes a square\). Example \(using "world" and a 10,000 block radius\): `/chm generate world 10000 blockradius`.
 {% endhint %}
 
-6. Leave the server \(so the generation task starts, unless you have `pause-on-join:` set to `false`\).  
+6. Leave the server \(so the generation task starts, unless you have `pause-on-join:` set to `false`\).
+
+{% hint style="danger" %}
+> Right after running the command and leaving the server, you **must** check the console to see if it actually started. If it did not, use `chm resume 1` in the console. The 1 changes to a two, if this is the second time you run the plugin.
+{% endhint %}
+
 7. Wait for the world generation to be done and enjoy the map!
 
 {% hint style="info" %}
