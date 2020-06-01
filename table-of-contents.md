@@ -26,12 +26,6 @@ description: All pages in this wiki are listed here
 * [Create your own structure](https://docs.dynamic-bytes.com/intermediate/create-structure)
 * [Importing vanilla biomes](https://docs.dynamic-bytes.com/intermediate/vanilla-biomes)
 
-{% hint style="success" %}
-> Everything above this has been completed  
-> \(Except for: Recommended installation, Biome settings, customize ores and generate from image\)  
-> Everything below this point is very likely to contain errors, spelling mistakes and other inconsistencies.
-{% endhint %}
-
 **Configuration - Advanced**
 
 * [Block conditions and probability](https://docs.dynamic-bytes.com/advanced/block-conditions-and-probability)
