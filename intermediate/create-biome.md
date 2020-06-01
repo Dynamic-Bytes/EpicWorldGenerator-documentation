@@ -23,13 +23,13 @@ Custom biomes can easily be created by copying and modifying a default biome. He
  or by checking the list.
 
 {% hint style="info" %}
-If the biome is not recognised in game, check your console log. All biomes are listed there upon server startup.
+> If the biome is not recognised in game, check your console log. All biomes are listed there upon server startup.
 {% endhint %}
 
 ## Customisation
 
 {% hint style="success" %}
-You can check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings)for a full guide on biome settings.
+> You can check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings)for a full guide on biome settings.
 {% endhint %}
 
 #### Configure spawning properties
@@ -70,7 +70,7 @@ You can replace `<type>` with: `DESERT, AQUATIC, GRASSLAND, FOREST`and `TUNDRA`.
 ```
 
 {% hint style="info" %}
-There is a scrollbar at the bottom, so you can see the full comment lines.
+> There is a scrollbar at the bottom, so you can see the full comment lines.
 {% endhint %}
 
 All vanilla biome names can be found at;
