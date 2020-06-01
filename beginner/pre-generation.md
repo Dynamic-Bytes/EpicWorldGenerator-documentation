@@ -30,7 +30,7 @@ _\(Click the title for a link to the plugin\)_
 > Note that it is advisable to use 8 GB of RAM **at a bare minimum** in this process. 10 GB or more is preferred.
 {% endhint %}
 
-After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and a [required fix](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755)\), follow the upcoming list of actions, in order to fully pre-generate your world.   
+After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej)\), follow the upcoming list of actions, in order to fully pre-generate your world.   
   
 1. Download [World Border](https://www.spigotmc.org/resources/worldborder.60905/) and put it in your `*/plugins` folder.   
 2. Start the server.   
@@ -71,7 +71,7 @@ _\(Click the title for a link to the plugin\)_
 > For the highest speed of generation, use this plugin on [Paper](https://papermc.io/downloads), rather than [Spigot](https://hub.spigotmc.org/jenkins/job/BuildTools/org.spigotmc$builder/lastBuild/).
 {% endhint %}
 
-After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and a [required fix](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755)\), follow the upcoming list of actions, in order to fully pre-generate your world. 
+After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej)\), follow the upcoming list of actions, in order to fully pre-generate your world. 
 
 1. Download [Chunkmaster](https://www.spigotmc.org/resources/chunkmaster.71351/) and put it in your `*/plugins` folder.   
 2. Start the server to generate a configuration file for the plugin, and stop the server.   
