@@ -19,7 +19,7 @@ This is our recommendation as to how to install the plugin to make it perform as
 1. Download and put the [EWG](https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-15-2-support-all-update-aquatic-features.8067/) and [WorldEdit](https://dev.bukkit.org/projects/worldedit) plugins in the `*/plugin` folder.
 
 {% hint style="info" %}
-> A recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and a [required hotfix](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755). If you want to add these later on, make sure to download them beforehand.
+> A recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and a [required hot-fix](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755). If you want to add these later on, make sure to download them beforehand.
 {% endhint %}
 
 2. Download any additional add-ons

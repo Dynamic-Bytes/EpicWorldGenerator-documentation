@@ -4,15 +4,15 @@ description: Advanced block placing for masters
 
 # Block conditions and probability
 
-All blocks is placed based on configuration options. To accomply with this, some more advanced settings was implemented.
+All blocks are placed based on configuration options. To accompany this, some additional advanced settings were implemented.
 
-The settings that was implemented may look simple, but they offer quite advanced features. It implement support for dependent and indepentendent proabillity and also condition based block selections.
+The settings that were implemented may look simple, but they offer quite advanced features. It implements support for dependent and interdependent probability and also condition based block selections.
 
 ### Conditions
 
-Their are multiple conditions a block can be placed on. You can combine them how you want. "Or" statement can be a comlied by adding the block multiple times.
+There are multiple conditions under which a block can be placed. You can combine them however you want. "Or" statements can be a applied by adding the block multiple times.
 
-Here is the current conditions;
+These are the current possible conditions;
 
 * Height condition
 * Inclination condition
@@ -33,11 +33,11 @@ Here is the current conditions;
 ]
 ```
 
-The conditon allows you to make the block only spawn between certain heights.
+This condition allows you to make the block only spawn between certain heights.
 
 **Inclination condition**
 
-The plugin take out raw data of the terrain and find out the height differences between the location and the locations around. The value can be compared with the absolute value of derivative to the terrain generated in a 3D. See "derivative"; [https://en.wikipedia.org/wiki/Derivative](https://en.wikipedia.org/wiki/Derivative)
+The plugin takes raw data of the terrain and finds the height differences between the location and the locations around it. This value can then be compared with the absolute value of the derivative to the terrain generated in a 3D environment. See [this ](https://en.wikipedia.org/wiki/Derivative)Wikipedia page on the derivative.
 
 ```text
 "inclinationsConditions": [
@@ -52,15 +52,15 @@ The plugin take out raw data of the terrain and find out the height differences 
 ]
 ```
 
-The condition is mostly used to place blocks in crags.
+This condition is mostly used to place blocks in crags.
 
 ### Probability
 
-Block groups are automaticly assigned into dependent and independent groups.
+Block groups are automatically assigned into dependent and independent groups.
 
-Two events are dependent if the outcome or occurrence of the first affects the outcome or occurrence of the second so that the probability is changed. To make it a bit more complex, the generator operates with two different probabilites each time a block is beinged considerted if it should be placed.
+Two events are dependent on the outcome or occurrence of the first. This affects the outcome or occurrence of the second so that the probability is changed. To make it a bit more complex \(because why not\), the generator operates with two different probabilities each time a location is checked to see if a block should be placed.
 
-Lets explain with an example. Taken this configuration example;
+Lets explain using an example. Taken this configuration;
 
 ```text
     "surfaceBlocks": [
@@ -153,15 +153,15 @@ Lets explain with an example. Taken this configuration example;
         ]
 ```
 
-The example above is using indepentent proability by putting each of the blocks that can be generated into its own group. This mean the plugin go thru to each of the groups until it find a block that fits.
+The example above is using independent probability by putting each of the blocks that can be generated into its own group. This means the plugin go through to each of the groups until it find a block that fits the location.
 
-Normally, by putting all of the blocks into the same group, the probillity for the next block to be choosen would increase with the proability of the other block to picked.
+Normally, by putting all of the blocks into the same group, the probability for the next block to be chosen would increase with the probability of the previous picked block.
 
 #### Support
 
-Please try to resolve this yourself, as even the most experienced amongst our support have serious trouble doing this themselves, let alone explain it.
+Please try to resolve this yourself, as even the most experienced among our support have serious trouble doing this themselves, let alone explain it.
 
-If you dont care, and have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
+If you don't care, and have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 

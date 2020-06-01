@@ -14,7 +14,7 @@ Custom biomes can easily be created by copying and modifying a default biome. He
 4. Change the name of the biome to any name you desire. 
 
 {% hint style="warning" %}
-> Do not change the file extensions `(.json)` as it will not be recognised if you do.
+> Do not change the file extensions `(.json)` as it will not be recognized if you do.
 {% endhint %}
 
 5. Remove the region folder from the world you are making the custom biome for. \(The regions folder can be found at `*/<world name>/regions`\)  
@@ -23,10 +23,10 @@ Custom biomes can easily be created by copying and modifying a default biome. He
  or by checking the list.
 
 {% hint style="info" %}
-> If the biome is not recognised in game, check your console log. All biomes are listed there upon server startup.
+> If the biome is not recognized in game, check your console log. All biomes are listed there upon server startup.
 {% endhint %}
 
-## Customisation
+## Customization
 
 {% hint style="success" %}
 > You can check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings)for a full guide on biome settings.
@@ -40,7 +40,7 @@ Listed here are the most important ones.
 "biomeType": "<type>"
 ```
 
-You can replace `<type>` with: `DESERT, AQUATIC, GRASSLAND, FOREST`and `TUNDRA`. This setting groups this biome with other, similar biomes to make the world feel more natural. This prevents unrealistic scenarios, like deserts and ice biomes spawning next to oneanother.
+You can replace `<type>` with: `DESERT, AQUATIC, GRASSLAND, FOREST`and `TUNDRA`. This setting groups this biome with other, similar biomes to make the world feel more natural. This prevents unrealistic scenarios, like deserts and ice biomes spawning next to one-another.
 
 #### Configure terrain properties
 

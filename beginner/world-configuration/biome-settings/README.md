@@ -693,7 +693,7 @@ Next to each of the biomes is a comment line, with information about that settin
 * !-3 Find out more on Image Generation [here](../beginner/generate-world-from-image).
 * !-4 These are pulled straight from Minecraft's code. It is unclear what they do precisely, but they do have effect.
 * !-5 A more detailed explanation on ores can be found [here](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings/customise-ores). 
-* !-6 More on noise layers can be found [here](../advanced/custom-terrains-using-noise.md). \(might be outdated, above my paygrade.\)
+* !-6 More on noise layers can be found [here](../advanced/custom-terrains-using-noise.md). \(might be outdated, above my pay grade.\)
 * !-7 The minimal must be lower than the maximal, or the biome will not be included in generation.a
 
 #### Support

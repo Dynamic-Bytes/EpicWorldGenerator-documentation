@@ -12,7 +12,7 @@ Take full control over the plugin by telling the plugin to create a world based 
 
 ![Map](http://i.imgur.com/AV2md6W.png)
 
-#### Image vs dynmap
+#### Image vs Dynmap
 
 [http://i.imgur.com/SiJ6ccr.mp4](http://i.imgur.com/SiJ6ccr.mp4)
 
@@ -43,7 +43,7 @@ In the example above. We used this image, named it `map.png` and placed it in th
 
 ### Take control
 
-Each biome has its own colour property. This property is used to find the biome to match any pixel in the image. You can add multiple colours to each biome using the config files for each biomes. Inside the config file, you will find something like this:
+Each biome has its own color property. This property is used to find the biome to match any pixel in the image. You can add multiple colors to each biome using the config files for each biomes. Inside the config file, you will find something like this:
 
 ```javascript
   "biomeColors": [
@@ -52,7 +52,7 @@ Each biome has its own colour property. This property is used to find the biome 
    ],
 ```
 
-Add or change colours here to link the biomes to different colours on the image.
+Add or change colors here to link the biomes to different colors on the image.
 
 {% hint style="info" %}
 > Note that it does pick the biome which has the `"biomeColors"` value that is the closest to the color on the `map.png`

@@ -28,7 +28,7 @@ description: All pages in this wiki are listed here
 
 {% hint style="success" %}
 > Everything above this has been completed  
-> \(Except for: Recommended installation, Biome settings, customise ores and generate from image\)  
+> \(Except for: Recommended installation, Biome settings, customize ores and generate from image\)  
 > Everything below this point is very likely to contain errors, spelling mistakes and other inconsistencies.
 {% endhint %}
 

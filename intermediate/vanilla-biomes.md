@@ -38,7 +38,7 @@ The plugin allow you to import vanilla biomes into the plugin. You will need to 
 The native biome name can be found using the ID to the biome. The ID to biome can be found here;  
 [http://minecraft.gamepedia.com/Biome](http://minecraft.gamepedia.com/Biome)
 
-The table to find the right name can be found here. It is snippet of the biome code in spigot 1.11 \(second name in the "table", eg "mushroom\_island\_shore"\);  
+The table to find the right name can be found here. It is snippet of the biome code in spigot 1.11 \(second name in the "table", Eg. "mushroom\_island\_shore"\);  
 [http://pastebin.com/ZqPqWhGq](http://pastebin.com/ZqPqWhGq)
 
 #### Support

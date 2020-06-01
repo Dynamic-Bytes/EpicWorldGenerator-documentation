@@ -4,7 +4,7 @@ description: Settings for your entire world - world-settings.json
 
 # World settings
 
-Each world has it is own settings that apply to all the biomes. This contains general settings like sea level, biome sizes and much more. It has to be in its own file to make sure the biomes fade correctly, amongst other things.
+Each world has it is own settings that apply to all the biomes. This contains general settings like sea level, biome sizes and much more. It has to be in its own file to make sure the biomes fade correctly, among other things.
 
 The setting file is location at;
 
@@ -24,7 +24,7 @@ Used internally in the plugin to provide correct algorithms that match the alrea
 
 **Lava Oceans**
 
-The setting determines whether all the world's oceans and rivers should be filled with lava. If they are filled with lava, all combustible materials on their shores catch on fire when a player is nearby. \(Unless you turn off firespread through `/gamerule doFireTick false`.\)
+The setting determines whether all the world's oceans and rivers should be filled with lava. If they are filled with lava, all combustible materials on their shores catch on fire when a player is nearby. \(Unless you turn off fire-spread through `/gamerule doFireTick false`.\)
 
 ```javascript
   "useLavaOceans": false
@@ -41,7 +41,7 @@ These settings affect ores in the world, though they can be a bit unstable they 
 
 **Simplex Noise**
 
-Noise algortihm used to generate terrain. Small differences, by default it will use perlin noise. See [Wikipedia - Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) and [Wikipedia - Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) for a comparison.
+Noise algorithm used to generate terrain. Small differences, by default it will use Perlin noise. See [Wikipedia - Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) and [Wikipedia - Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) for a comparison.
 
 ```javascript
   "useOpenSimplexNoise": true
@@ -200,9 +200,9 @@ The center of the world border will be at;
 
 ![Image of a flat area](http://i.imgur.com/MzXyi83.png)
 
-The plugin can generate mutliple flat areas around the world. It will have a random \(circular based\) shape that should fit the terrain. On the image above is it shaped somewhat like a sphere, something that now has been replaced with more limiting circular shapes.
+The plugin can generate multiple flat areas around the world. It will have a random \(circular based\) shape that should fit the terrain. On the image above is it shaped somewhat like a sphere, something that now has been replaced with more limiting circular shapes.
 
-The flat areas can be useful for multiple spawnpoints around the world and also saves you the time of flattening the terrain around your spawn area.
+The flat areas can be useful for multiple spawn-points around the world and also saves you the time of flattening the terrain around your spawn area.
 
 ```javascript
   "flatAreas": [ 
@@ -225,7 +225,7 @@ The flat areas can be useful for multiple spawnpoints around the world and also 
 
 **Override Saplings**
 
-If you want the plugin to generate custom trees instead of the default minecraft trees from saplings, set this to true. Please note that the plugin only generates its custom trees if it has a tree type that matches the sapling.
+If you want the plugin to generate custom trees instead of the default Minecraft trees from saplings, set this to true. Please note that the plugin only generates its custom trees if it has a tree type that matches the sapling.
 
 ```javascript
   "overrideSaplings": true

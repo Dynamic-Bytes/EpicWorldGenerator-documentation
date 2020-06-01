@@ -4,7 +4,7 @@ description: Guide on pre-generating your map. Advisable to prevent lag.
 
 # Pre-generation
 
-This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more well-known and overall better integrated plugin \(works better with other plugins, ususally\). Though, on the other side, Chunkmaster is much, much faster when it comes to generating a world.
+This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more well-known and overall better integrated plugin \(works better with other plugins, usually\). Though, on the other side, Chunkmaster is much, much faster when it comes to generating a world.
 
 {% hint style="success" %}
 > We advise you to make use of Chunkmaster for pre-generating your world over WorldBorder. This is because \(after thorough testing\) we found a 50% speed increase at the start, and no memory leak in the long term.
@@ -19,7 +19,7 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 {% endhint %}
 
 {% hint style="warning" %}
-> With both of the installations, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticable effect on the map.
+> With both of the installations, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticeable effect on the map.
 {% endhint %}
 
 #### [World Border](https://www.spigotmc.org/resources/worldborder.60905/)
@@ -27,7 +27,7 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 _\(Click the title for a link to the plugin\)_
 
 {% hint style="info" %}
-> Note that it is advisable to use 8 GB of RAM **at a bare minumum** in this process. 10 GB or more is preffered.
+> Note that it is advisable to use 8 GB of RAM **at a bare minimum** in this process. 10 GB or more is preferred.
 {% endhint %}
 
 After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and a [required fix](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755)\), follow the upcoming list of actions, in order to fully pre-generate your world.   
@@ -50,7 +50,7 @@ After completing the basic EWG installation, adding any custom biomes you might 
 6. Confirm the fill command by using `/wb fill confirm`. 
 
 {% hint style="warning" %}
-> Note that if, at any point in the process of the filling process, the server **crashes** \(restarting doesn\'t matter\), you must run `/wb fill cancel` as soon as the server starts again, and continue the process with the same command as before, but using `false` at the end \(to stick with the example: `/wb world fill 20 288 false`, followed, once again, by `/wb fill confirm`\)
+> Note that if, at any point in the process of the filling process, the server **crashes** \(restarting doesn't matter\), you must run `/wb fill cancel` as soon as the server starts again, and continue the process with the same command as before, but using `false` at the end \(to stick with the example: `/wb world fill 20 288 false`, followed, once again, by `/wb fill confirm`\)
 {% endhint %}
 
 7. Wait for the world generation to be done and enjoy the map! 
@@ -64,7 +64,7 @@ After completing the basic EWG installation, adding any custom biomes you might 
 _\(Click the title for a link to the plugin\)_
 
 {% hint style="warning" %}
-> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM than WorldBorder, but keep in mind that 5 GB or more is still advisabel for this to work at reasonable performance or better.
+> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM than WorldBorder, but keep in mind that 5 GB or more is still advisable for this to work at reasonable performance or better.
 {% endhint %}
 
 {% hint style="success" %}
