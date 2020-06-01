@@ -174,7 +174,8 @@ dynmap: true
 {% endhint %}
 
 {% hint style="success" %}
-> Please contact Coco if you are **not** getting more than an average of 30 chunks per seconds in the generation task, so we can improve performance and improve this tutorial.
+> Please contact Coco if you are **not** getting more than an average of 25 chunks per seconds in the generation task, so we can improve performance and improve this tutorial.  
+> \(Please don't jump to conclusions, and wait for at least 15 minutes to get an accurate speed\)
 {% endhint %}
 
 #### Support
