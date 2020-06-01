@@ -4,17 +4,17 @@ description: Customise the ores in your world
 
 # Customise ores
 
-Ores can be configured individually for each biome, this means you will find the ore settings within each biome file.
+{% hint style="info" %}
+> Ores can be configured individually for each biome, this means you will find the ore settings within each individual biome file at `*/<world folder>/settings/biomes/default/<biome name>.json`
+{% endhint %}
 
-```bash
-<world folder>/settings/biomes/default/<biome name>.json
-```
+The plugin allows you to take full control over the ores. You can create your own ores, remove the default ores or change the way that the default ores spawn in around the world.
 
-The plugin allows you to have full control over the ores. You can create your own ores, remove the default ores or change the way that the default ores spawn in around the world.
+{% hint style="info" %}
+> Note that "ores" does not have to mean the generic ores like diamonds, emeralds, or similar blocks. Ores can be any block, like dirt for example. Click [here ](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)for a list of all types of blocks, which you can all use as ores.
+{% endhint %}
 
-Keep in mind that by stating, "ores," it doesn't always refer to diamonds, emeralds, or similar items. Ores can be blocks as well like dirt. Visit here the link to see all types of ores. [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
-
-By default, EWG will not directly handle ores, if the following vanilla property is enabled:
+By default, EWG will not directly handle ores, but let vanilla generation take over. To enable custom ore generation, make sure the following vanilla property is **not** in the list of `"vanillaFeatures"`:
 
 ```javascript
 "vanillaFeatures": [ 
@@ -23,7 +23,13 @@ By default, EWG will not directly handle ores, if the following vanilla property
 ]
 ```
 
-Disable it by removing the property. Here is the default configuration to make ores spawn **exactly** like in vanilla.
+If it is in there, disable it by removing the property. 
+
+Here is the default configuration to make ores spawn **exactly** like in vanilla, using the custom generation tool.
+
+{% hint style="info" %}
+To apply this setting to any of your biome files, replace the **entire** `"oreGenerators": []`section. Make sure to also remove all the comments which start with `//` because they will prevent the ores from generating altogether. 
+{% endhint %}
 
 ```javascript
   "oreGenerators": [
@@ -172,7 +178,7 @@ Disable it by removing the property. Here is the default configuration to make o
   ],
 ```
 
-The settings should be changed to your liking, and keeping them as default wouldn't be the best decision. Ores can give your server a new kind of customization that your players will enjoy and love. Most importantly, you can customize the ores in order to make it fit with the style of your server. OP Factions for instance should have a more common way of getting ores like diamonds and emerald. However, servers like Hardcore Survival, or other types, should have a much harder way of getting ores. You can make ores hard to get by decreasing the maximum height \(Y in minecraft\) value, and decreasing the size and count, or vise versa. Good luck!
+You can modify all these settings to your liking, or you can keep them them as default, though that wouldn't be any fun, would it? Ores can take your server to the next level, using in-depth customization that your players will enjoy and love. Most importantly, you can customize the ores in order to make it fit with the style of your server; OP Factions, for instance, should have a more common way of getting ores like diamonds and emerald. However, servers like Hardcore Survival, or other types, should have a much harder way of getting ores. Lastly, if you were to make a modded server, you can add the custom ores to the generation. You can make ores hard to get by decreasing the maximum height \(Y-level\) value, and decreasing the size and count, or make them more common by taking those steps in reverse. Good luck!
 
 #### Support
 

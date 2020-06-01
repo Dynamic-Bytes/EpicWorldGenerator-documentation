@@ -66,7 +66,7 @@ Next to each of the biomes is a comment line, with information about that settin
     "TOP_LAYER_MODIFICATION",
     "RAW_GENERATION"
   ],
-  "ores": [ "Modifies ores. Only the first ore in this section has comments."
+  "ores": [ "Modifies ores. Only the first ore in this section has comments. !-5"
     {
       "type": "DIRT", "Type of block. Note: for grass blocks use GRASS_BLOCK instead of GRASS."
       "size": 33, "The size at which the patches of these blocks spawn. Higher is more spread out / larger."
@@ -152,7 +152,7 @@ Next to each of the biomes is a comment line, with information about that settin
       "maxHeight": 32
     }
   ],
-  "customTerrain": { "Adds noise layer capability, lets you modify how high and how many mountains spawn. !-5."
+  "customTerrain": { "Adds noise layer capability, lets you modify how high and how many mountains spawn. !-6."
     "noiseLayers": []
   },
   "terrainSettings": { "Settings for the terrain."
@@ -185,7 +185,7 @@ Next to each of the biomes is a comment line, with information about that settin
           "inclinationsConditions": [ "Defines the slope of the terrain."
             {
               "minInclination": 2.3, "Higher minimal is more hill-like."
-              "maxInclination": 99.0 "Lower maximal is flatter. !-6"
+              "maxInclination": 99.0 "Lower maximal is flatter. !-7"
             }
           ],
           "chance": 1.0 "Chance to pick this block, over any other blocks that might be added to this list. Adds up all chances and devides chance by that."
@@ -692,8 +692,9 @@ Next to each of the biomes is a comment line, with information about that settin
 * !-2 Can be: Desert, aquatic, grassland, forest and tundra. In all CAPS.
 * !-3 Find out more on Image Generation [here](../beginner/generate-world-from-image).
 * !-4 These are pulled straight from Minecraft's code. It is unclear what they do precisely, but they do have effect.
-* !-5 More on noise layers can be found [here](../advanced/custom-terrains-using-noise.md). \(might be outdated, above my paygrade.\)
-* !-6 The minimal must be lower than the maximal, or the biome will not be included in generation.a
+* !-5 A more detailed explanation on ores can be found [here](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings/customise-ores). 
+* !-6 More on noise layers can be found [here](../advanced/custom-terrains-using-noise.md). \(might be outdated, above my paygrade.\)
+* !-7 The minimal must be lower than the maximal, or the biome will not be included in generation.a
 
 #### Support
 
