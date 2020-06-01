@@ -9,7 +9,7 @@
 ## BEGINNER
 
 * [Basic installation](beginner/basic-installation.md)
-* [Recommended installation](beginner/recommended-installation.md)
+* [Recommended installation \(Work in progress\)](beginner/recommended-installation.md)
 * [Pre-generation](beginner/pre-generation.md)
 * [World configuration](beginner/world-configuration/README.md)
   * [Generate world from image](beginner/world-configuration/generate-world-from-image.md)
