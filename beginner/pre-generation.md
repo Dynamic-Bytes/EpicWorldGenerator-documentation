@@ -18,6 +18,10 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 > EpicWorldGenerator comes with a setting that allows you to cut off the world at a certain square size. Check [this](https://docs.dynamic-bytes.com/beginner/world-settings) under the world border header.
 {% endhint %}
 
+{% hint style="warning" %}
+> With both of the installations, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticable effect on the map.
+{% endhint %}
+
 #### [World Border](https://www.spigotmc.org/resources/worldborder.60905/)
 
 _\(Click the title for a link to the plugin\)_
