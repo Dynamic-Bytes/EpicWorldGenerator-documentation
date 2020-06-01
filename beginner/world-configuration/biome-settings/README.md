@@ -171,24 +171,24 @@ Next to each of the biomes is a comment line, with information about that settin
     "spawnLilyPads": false, "Toggles lily pads on the water."
     "fastLeavesPlacing": true, "Toggles the fast leaves algorithm. Best to leave on true."
     "spawnCactus": false, "Toggles cacti."
-    "spawnSnowLayers": false,
-    "spawnHangingLeaves": false,
-    "spawnIceOnWater": false,
-    "groundDepth": 4,
-    "surfaceDepth": 1,
-    "surfaceBlocks": [
+    "spawnSnowLayers": false, "Toggles snow layers."
+    "spawnHangingLeaves": false, "Toggles hanging leaves."
+    "spawnIceOnWater": false, "Toggles ice."
+    "groundDepth": 4, "Modifies depth of dirt."
+    "surfaceDepth": 1, "Modifies top layer depth, grass."
+    "surfaceBlocks": [ "Adds custom blocks to the surface layer."
       [
         {
-          "type": "CYAN_TERRACOTTA",
-          "data": 0,
-          "tags": {},
-          "inclinationsConditions": [
+          "type": "CYAN_TERRACOTTA", "Block name."
+          "data": 0, "Data, used for wool."
+          "tags": {}, "Tags, shouldn't be used anymore for anything other than custom ores/blocks."
+          "inclinationsConditions": [ "Defines the slope of the terrain."
             {
-              "minInclination": 2.3,
-              "maxInclination": 99.0
+              "minInclination": 2.3, "Higher minimal is more hill-like."
+              "maxInclination": 99.0 "Lower maximal is flatter. !-6"
             }
           ],
-          "chance": 1.0
+          "chance": 1.0 "Chance to pick this block, over any other blocks that might be added to this list. Adds up all chances and devides chance by that."
         }
       ],
       [
@@ -238,8 +238,8 @@ Next to each of the biomes is a comment line, with information about that settin
         }
       ]
     ],
-    "oceanBlocks": [],
-    "groundBlocks": [
+    "oceanBlocks": [], "Blocks in the oceanbed, works the same as surfaceBlocks."
+    "groundBlocks": [ "Blocks in the ground, works the same as the oceanBlocks and surfaceBlocks."
       [
         {
           "type": "CYAN_TERRACOTTA",
@@ -301,7 +301,7 @@ Next to each of the biomes is a comment line, with information about that settin
         }
       ]
     ],
-    "beachBlocks": [
+    "beachBlocks": [ "Blocks around bodies of water, works the same as all the ...Blocks categories."
       [
         {
           "type": "DIRT",
@@ -317,11 +317,11 @@ Next to each of the biomes is a comment line, with information about that settin
         }
       ]
     ],
-    "pathBlocks": [],
-    "farmlandBlocks": [],
-    "slabBlocks": [],
-    "stairBlocks": [],
-    "plantBlocks": [
+    "pathBlocks": [], "Blocks out of which village paths are built, works the same as all the ...Blocks categories."
+    "farmlandBlocks": [], "Blocks out of which the villager farm frames are built, works the same as all the ...Blocks categories."
+    "slabBlocks": [], "Added blocks to the terrain to emphasise slopes and make them look nicer, works the same as all the ...Blocks categories, but must be a slab."
+    "stairBlocks": [], "Added blocks to the terrain to emphasise slopes and make them look nicer, works the same as all the ...Blocks categories, but must be a stair."
+    "plantBlocks": [ "Crops that grow on this land by default, works the same as all the ...Blocks categories, but must be a crop or plant."
       [],
       [],
       [
@@ -543,7 +543,7 @@ Next to each of the biomes is a comment line, with information about that settin
         }
       ]
     ],
-    "riverBlocks": [
+    "riverBlocks": [ "Blocks in the rivers; works the same as all the ...Blocks categories."
       [
         {
           "type": "SAND",
@@ -559,7 +559,7 @@ Next to each of the biomes is a comment line, with information about that settin
         }
       ]
     ],
-    "leavesBlock": {
+    "leavesBlock": { "Blocks around the ground, as a form of decoration; works the same as all the ...Blocks categories."
       "type": "OAK_LEAVES",
       "data": 0,
       "tags": {},
@@ -693,6 +693,7 @@ Next to each of the biomes is a comment line, with information about that settin
 * !-3 Find out more on Image Generation [here](../beginner/generate-world-from-image).
 * !-4 These are pulled straight from Minecraft's code. It is unclear what they do precisely, but they do have effect.
 * !-5 More on noise layers can be found [here](../advanced/custom-terrains-using-noise.md). \(might be outdated, above my paygrade.\)
+* !-6 The minimal must be lower than the maximal, or the biome will not be included in generation.a
 
 #### Support
 
