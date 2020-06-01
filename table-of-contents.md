@@ -16,13 +16,7 @@ description: All pages in this wiki are listed here
 * [Pre-generation](https://docs.dynamic-bytes.com/beginner/pre-generation)
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
-
-{% hint style="success" %}
-> Everything above this has been completed \(Apart from edits to the Recommended Installation, on which I am collaborating with one of the community's members.\)  
-> Everything below this point is very likely to contain errors, spelling mistakes and other inconsistencies.
-{% endhint %}
-
-*  * [Biome settings](https://docs.dynamic-bytes.com/beginner/biome-settings)
+  * [Biome setting](https://docs.dynamic-bytes.com/beginner/biome-settings)
     * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 
@@ -31,6 +25,12 @@ description: All pages in this wiki are listed here
 * [Create a custom biome](https://docs.dynamic-bytes.com/intermediate/create-biome)
 * [Create your own structure](https://docs.dynamic-bytes.com/intermediate/create-structure)
 * [Importing vanilla biomes](https://docs.dynamic-bytes.com/intermediate/vanilla-biomes)
+
+{% hint style="success" %}
+> Everything above this has been completed  
+> \(Except for: Recommended installation, Biome settings, customise ores and generate from image\)  
+> Everything below this point is very likely to contain errors, spelling mistakes and other inconsistencies.
+{% endhint %}
 
 **Configuration - Advanced**
 
