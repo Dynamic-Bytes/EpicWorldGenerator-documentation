@@ -173,6 +173,10 @@ dynmap: true
 > You can check up on the progress of the generation task in the console.
 {% endhint %}
 
+{% hint style="success" %}
+> Please contact Coco if you are **not** getting more than an average of 30 chunks per seconds in the generation task, so we can improve performance and improve this tutorial.
+{% endhint %}
+
 #### Support
 
 If you run into issues with any of these steps, make sure to contact our support team on our [Discord](https://discord.gg/Jq3ecb3).
