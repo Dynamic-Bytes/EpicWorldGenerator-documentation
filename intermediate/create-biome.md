@@ -4,39 +4,57 @@ description: 'Create your own biomes, create your own world'
 
 # Create a custom biome
 
-#### Create a new biome
+## Installation
 
-Custom biomes can be easly created by copying a default biome by doing the following;
+Custom biomes can easily be created by copying and modifying a default biome. Here is a guide on how to do just that;
 
-1. Go to the folder of your specified world, then travel into settings, then biomes, then default.
-2. Find your desired biome to work out from.
-3. Copy the &lt;biome&gt;.json file \(FileZilla is recommended for this procedure\), then upload \(or paste\) it onto  the custom folder located under the same biomes folder.
-4. Change the name to your desired name. \(DO NOT CHANGE .JSON\)
-5. Empty the world folder \(or any world name you have\) EXCEPT the settings folder.
-6. Start the server your server and make sure the "custom" biome is listed when you do /ewg tp &lt;name&gt; or by checking the list.
+1. Navigate to the following folder in your world: `*/<world name>/settings/biomes/default`.  
+2. Pick a biome to base your new biome off of.  
+3. Copy the `<biome>.json` file and paste it into the custom biome folder located at `*/<world name>/settings/biomes/custom`  
+4. Change the name of the biome to any name you desire. 
+
+{% hint style="warning" %}
+> Do not change the file extensions `(.json)` as it will not be recognised if you do.
+{% endhint %}
+
+5. Remove the region folder from the world you are making the custom biome for. \(The regions folder can be found at `*/<world name>/regions`\)  
+6. Start the server your server and make sure the "custom" biome is enabled when you do `/ewg tp <name>`, replacing `<name>` by the name you gave the file.
+
+ or by checking the list.
+
+{% hint style="info" %}
+If the biome is not recognised in game, check your console log. All biomes are listed there upon server startup.
+{% endhint %}
+
+## Customisation
+
+{% hint style="success" %}
+You can check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings)for a full guide on biome settings.
+{% endhint %}
 
 #### Configure spawning properties
+
+Listed here are the most important ones.
 
 ```javascript
 "biomeType": "<type>"
 ```
 
-You can pick between, DESERT, AQUATIC, GRASSLAND, FOREST and TUNDRA.  
-Where desert is the place for hot biomes and tundra is the place for cold biomes.
+You can replace `<type>` with: `DESERT, AQUATIC, GRASSLAND, FOREST`and `TUNDRA`. This setting groups this biome with other, similar biomes to make the world feel more natural. This prevents unrealistic scenarios, like deserts and ice biomes spawning next to oneanother.
 
-#### Configure terrain
+#### Configure terrain properties
 
 ```javascript
 {
   "terrainSettings": {
-    "subTerrains": [ //List of the biomes included in the custom biome. Do this by copying the same format and pasting but changing the name of the                biome provided
+    "subTerrains": [ //List of the biomes included in the custom biome. Do this by copying the same format and pasting but changing the name of the biome provided
       {
-        "provider": "EWG", //This lets the plugin know whether the actual plugin is generating the biome or Minecraft is
+        "provider": "EWG", //This lets the plugin know whether the plugin is generating the biome or Minecraft is
         "name": "Bonsai Forest", //This lets the plugin know the terrain that it is loading
-        "xModifier": 1.0, //Stretches the biome, create bigger mountains.
+        "xModifier": 1.0, //Stretches the biome, create bigger (not taller) mountains.
         "yModifer": 0.5, //Higher numbers, more height in terrain. It generally creates more mountains and makes them higher.
         "zModifer": 1.0, //Same concept as X
-        "yOffset": 0 //Cuts off rows of the bottom layer of the world. Best to not touch.
+        "yOffset": 0 //Cuts off rows of the bottom layer of the world. No touchy.
       },
       {
         "provider": "MINECRAFT", //Telling the plugin that the terrain provider is a vanilla biome
@@ -50,6 +68,10 @@ Where desert is the place for hot biomes and tundra is the place for cold biomes
   }
 }
 ```
+
+{% hint style="info" %}
+There is a scrollbar at the bottom, so you can see the full comment lines.
+{% endhint %}
 
 All vanilla biome names can be found at;
 
