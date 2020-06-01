@@ -167,10 +167,10 @@ Next to each of the biomes is a comment line, with information about that settin
       }
     ]
   },
-  "overlaySettings": { "Settings for individual properties of the world"
-    "spawnLilyPads": false,
-    "fastLeavesPlacing": true,
-    "spawnCactus": false,
+  "overlaySettings": { "Settings for individual properties of the world."
+    "spawnLilyPads": false, "Toggles lily pads on the water."
+    "fastLeavesPlacing": true, "Toggles the fast leaves algorithm. Best to leave on true."
+    "spawnCactus": false, "Toggles cacti."
     "spawnSnowLayers": false,
     "spawnHangingLeaves": false,
     "spawnIceOnWater": false,
