@@ -7,7 +7,7 @@ description: Guide on pre-generating your map. Advisable to prevent lag.
 This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more well-known and overall better integrated plugin \(works better with other plugins, usually\). Though, on the other side, Chunkmaster is much, much faster when it comes to generating a world.
 
 {% hint style="success" %}
-> We advise you to make use of Chunkmaster for pre-generating your world over WorldBorder. This is because \(after thorough testing\) we found a 50% speed increase at the start, and no memory leak in the long term.
+> We advise you to make use of Chunkmaster for pre-generating your world over WorldBorder. This is because \(after thorough testing\) we found a 50% speed increase at the start, and no memory leak in the long term. You can use WorldBorder alonside Chunkmaster.
 {% endhint %}
 
 {% hint style="warning" %}
