@@ -8,22 +8,22 @@ description: 'Create your own, custom, structures for your world'
 
 In EpicWorldGenerator, all structures is generated using "EWG Object". The object has multiple properties that can be defined using `.json` syntax. The most important property is the file the object refer to. All structures in EpicWorldGenerator needs to be saved as its own file with a .EWG extension. This file is made to optimize the speed and also store the anchor point to the object.
 
-An EWG object can be used both under "customTrees" and "customStructures".
+An EWG object can be used both under `"customTrees"` and `"customStructures"`.
 
 #### Create a new structure file
 
 1. Select an object using world edit
-2. After, stand in the middle of the structure, or the center. click F3 and look at the column that shows the XYZ values. This feature is included in the installation of structures to prevent buildings being flown in mid-air.  Example: /ewg create &lt;center X&gt; &lt;center Y&gt; &lt;center Z&gt; &lt;name&gt; type in ONLY whole numbers, not decimals! 
-3. The structure is now saved under the EpicWorldGenerator folder named"EWGFiles"
+2. After, stand in the middle of the structure, or the center. click F3 and look at the column that shows the XYZ values. This feature is included in the installation of structures to prevent buildings being flown in mid-air.  Example: `/ewg create <center X> <center Y> <center Z> <name>`; type in only whole numbers, not decimals. 
+3. The structure is now saved under the EpicWorldGenerator folder named `"EWGFiles"` , which you can find in your `*/plugins` folder.
 
 #### Make the file generate
 
 The file can be generated using different configurations. Each configuration has to contain the file name.
 
 1. Open the biome file located at `*<world name>/settings/biomes/default/<biome>.json`
-2. Find the "customTrees" or "customStructures" section, depending on if you want it to generate a tree or a structure
+2. Find the `"customTrees"` or `"customStructures"` section, depending on if you want it to generate a tree or a structure
 3. Put the following content in the list
-4. Change where is specifies "CUSTOM\_jungle\_tower" to "CUSTOM_&lt;name&gt;" Be aware that "_" or underscore, represents a space.
+4. Change where is specifies `"CUSTOM_jungle_tower"` to `"CUSTOM<name>"` _Be aware that_ an underscore represents a space.
 5. All other categories are explained in the Biomes Wiki. However, most of the other information provided is not required to be touch, and doesn't need to be in most cases.
 6. Congrats, now go show off your new build!
 
