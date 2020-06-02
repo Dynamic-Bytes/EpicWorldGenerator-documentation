@@ -17,6 +17,7 @@ description: The FAQ section - Quite a few regular issues are listed here
   * VI.II Issue with missing structure\(s\)
 * VII. How do I pre-generate a world?
 * VIII. How do I disable biomes I don't like?
+* IIX. Can I remove the plugin after I generated a map?
 
 #### I. Where do I find the configuration files?
 
@@ -155,6 +156,15 @@ You might have biomes you do not like. There is a simple 4 step plan to disable 
 {% hint style="info" %}
 > If you have any missing or broken chunks, check out **VII. How do I pre-generate a world?**, which is above here.
 {% endhint %}
+
+#### IIX. Can I remove the plugin after I generated a map?
+
+You can remove the plugin after you generated a map. Keep in mind, however, that the following issues can arise \(and probably will\):
+
+* Leaves will not decay correctly
+* Mobs will not spawn correctly
+* You cannot make new chunks \(generated after the rest of the map\)
+* Lagg can occur because of the aforementioned issues
 
 #### Support
 
