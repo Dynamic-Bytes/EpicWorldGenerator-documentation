@@ -57,7 +57,7 @@ In order to use EWG to its full potential, there are a few handy commands for yo
 `/ewg install`
 
 {% hint style="info" %}
-TO DO
+> Used in some versions of EWG to apply web-editor edits. No longer supported in the latest versions or many of the first.
 {% endhint %}
 
 #### Support
