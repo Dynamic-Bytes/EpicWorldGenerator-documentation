@@ -73,9 +73,7 @@ You can replace `<type>` with: `DESERT, AQUATIC, GRASSLAND, FOREST`and `TUNDRA`.
 > There is a scrollbar at the bottom, so you can see the full comment lines.
 {% endhint %}
 
-All vanilla biome names can be found at;
-
-[http://minecraft.gamepedia.com/Biome\#Biome\_types](http://minecraft.gamepedia.com/Biome#Biome_types)
+All vanilla biome names can be found [here](http://minecraft.gamepedia.com/Biome#Biome_types).
 
 #### Configure overlay
 

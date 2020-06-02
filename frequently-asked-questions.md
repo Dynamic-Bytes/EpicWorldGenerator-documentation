@@ -84,10 +84,10 @@ It is limited as to what you can do to resolve the problem, but here are some op
 
 The reason no ores are spawning in your world is because of recent changes to the way ores are generated. You can get your ores back by doing the following:
 
-1. Find your world folder and locate the settings folder that EWG created \(`*<world name>/settings`\).
-2. Download the .rar folder from [here](https://discord.com/channels/576841187256827905/576844840847802398/711257243953266755) and replace the biomes folders in the settings folder with its contents. \(`*/<world name>/settings/biomes`\).
-3. Download the .zip file from [here](https://1drv.ms/u/s!AmrRJ70wu8OUgZFrT8lExKbsl8NSmw?e=CgumZH) and copy-paste **only** the EpicWorldGenerator folder to your `*/plugins` folder, replacing the one already in there.
-4. Remove all the region files from your world after stopping your server. \(`*/<world name>/region`\)
+1. Update the plugin to [the latest version](https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-15-1-support-all-update-aquatic-features.8067/).
+2. Follow the steps in [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack).
+3. Stop your server
+4. Remove all the region files from your world. \(`*/<world name>/region`\)
 
 {% hint style="danger" %}
 > This will remove the world in its whole.
@@ -141,9 +141,12 @@ Restart the server, and you should be good to go.
 
 #### VII. How do I pre-generate a world?
 
-Pre-generating a world is always recommended in order to prevent issues with missing chunks. Example: ![Missing chunks](https://i.imgur.com/PGN28u3.png)
+Pre-generating a world is always recommended in order to prevent issues with missing chunks. 
 
-Click [here](https://docs.dynamic-bytes.com/beginner/pre-generation) to get a guide.
+Example:  
+![Missing chunks](https://i.imgur.com/PGN28u3.png)
+
+Click [here](https://docs.dynamic-bytes.com/beginner/pre-generation) to get a guide on how to pre-generate your world.
 
 #### VIII. How do I disable biomes I don't like?
 

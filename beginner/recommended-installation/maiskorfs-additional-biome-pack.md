@@ -4,7 +4,7 @@ description: >-
   (V5_30 - EWG8.1.25)
 ---
 
-# Maiskorf's Additional Biome Pack
+# Maiskorf's Additional Biome Pack \(Guide\)
 
 [https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej)
 

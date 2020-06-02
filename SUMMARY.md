@@ -10,13 +10,13 @@
 
 * [Basic installation](beginner/basic-installation.md)
 * [Recommended installation \(Work in progress\)](beginner/recommended-installation/README.md)
-  * [Maiskorf's Additional Biome Pack](beginner/recommended-installation/maiskorfs-additional-biome-pack.md)
+  * [Maiskorf's Additional Biome Pack \(Guide\)](beginner/recommended-installation/maiskorfs-additional-biome-pack.md)
 * [Pre-generation](beginner/pre-generation.md)
 * [World configuration](beginner/world-configuration/README.md)
-  * [Generate world from image](beginner/world-configuration/generate-world-from-image.md)
   * [World settings](beginner/world-configuration/world-settings.md)
   * [Biome settings](beginner/world-configuration/biome-settings/README.md)
     * [Customise ores](beginner/world-configuration/biome-settings/customise-ores.md)
+  * [Generate world from image](beginner/world-configuration/generate-world-from-image.md)
 
 ## INTERMEDIATE
 

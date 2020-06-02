@@ -13,6 +13,7 @@ description: All pages in this wiki are listed here
 
 * [Basic installation](https://docs.dynamic-bytes.com/beginner/basic-installation)
 * [Recommended installation](https://docs.dynamic-bytes.com/beginner/recommended-installation)
+  * [Maiskorf's Additional Biome Pack](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)
 * [Pre-generation](https://docs.dynamic-bytes.com/beginner/pre-generation)
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)

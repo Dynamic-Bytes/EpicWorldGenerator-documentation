@@ -21,13 +21,13 @@ This is our recommendation as to how to install the plugin to make it perform as
 2. Download any additional add-ons
 
 {% hint style="info" %}
-> A recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej). If you want to add these later on, make sure to download them beforehand.
+> A recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack). If you want to add these later on, make sure to download them beforehand.
 {% endhint %}
 
 ![Maiskorf&apos;s Additional Biome Pack](../../.gitbook/assets/afbeelding%20%281%29.png)
 
 {% hint style="success" %}
-> Other options would be the [Maiskorf's Mars and / or Moon Landscapes](https://discordapp.com/channels/576841187256827905/576844840847802398/714083091504693278) or the [Mushroom-Tree Biome by Zikiv](https://discordapp.com/channels/576841187256827905/576844840847802398/710821492321157170).
+> Other options would be the [Maiskorf's Mars and / or Moon Landscapes](https://discordapp.com/channels/576841187256827905/576844840847802398/714083091504693278) or the [Mushroom-Tree Biome by Zikiv](https://discordapp.com/channels/576841187256827905/576844840847802398/710821492321157170). Installing these is similarly done as to [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)
 {% endhint %}
 
 ![Maiskorf&apos;s Mars Landscapes](../../.gitbook/assets/afbeelding%20%287%29.png)
