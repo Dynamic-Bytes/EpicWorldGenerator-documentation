@@ -96,7 +96,7 @@ The minimum height caves will generate.
 
 **Map Scale**
 
-Changes the scale between which your [generate-world-from-image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image) image and the actual blocks in the world. If this setting is on `1.0`, it will generate 1 pixel per block.
+Changes the scale between which your [generate-world-from-image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image) image and the actual blocks in the world. If this setting is on `1.0`, it will generate 1 pixel per block. If you want 1 pixel to equal 16 blocks \(a chunk\), make this number `16.0`.
 
 ```javascript
   "mapScale": 1.0,
