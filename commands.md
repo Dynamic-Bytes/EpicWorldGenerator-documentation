@@ -28,6 +28,11 @@ In order to use EWG to its full potential, there are a few handy commands for yo
 > This command lets you teleport to a biome of your choice. The biome name is the same as the one you get from `/ewg info`, and the same as the name of the file in the configurations.
 {% endhint %}
 
+{% hint style="warning" %}
+> 1. This command only properly functions in worlds EWG created.
+> 2. This command will require you to rejoin after you ran it.
+{% endhint %}
+
 
 
 `/ewg create`

@@ -2,7 +2,9 @@
 description: Recommended and more detailed way of installing the plugin.
 ---
 
-# Recommended installation \(Work in progress\)
+# Recommended installation
+
+## \(Work in progress\)
 
 This is our recommendation as to how to install the plugin to make it perform as best as possible. You can also follow a more [basic instruction](https://docs.dynamic-bytes.com/basic-installation). If you have any issues with any of the steps in this process, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
 

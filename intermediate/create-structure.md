@@ -55,6 +55,10 @@ The file can be generated using different configurations. Each configuration has
 }
 ```
 
+{% hint style="success" %}
+> Adding contents to chests in your structures is a possibility. Check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings/customise-chests)for a guide on how to do just that.
+{% endhint %}
+
 #### Support
 
 If you have any issues with any of the settings in this file, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).

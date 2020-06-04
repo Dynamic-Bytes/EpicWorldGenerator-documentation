@@ -17,8 +17,9 @@ description: All pages in this wiki are listed here
 * [Pre-generation](https://docs.dynamic-bytes.com/beginner/pre-generation)
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
-  * [Biome setting](https://docs.dynamic-bytes.com/beginner/biome-settings)
-    * [Customize ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
+  * [Biome settin](https://docs.dynamic-bytes.com/beginner/biome-settings)
+    * Customise chest contents
+    * [Customise ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 
 **Configuration - Intermediate**
