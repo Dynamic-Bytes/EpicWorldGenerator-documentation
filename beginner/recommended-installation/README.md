@@ -12,11 +12,11 @@ This is our recommendation as to how to install the plugin to make it perform as
 
 0. Before all, stop the server.
 
+#### Gathering files
+
 {% hint style="danger" %}
 > This plugin does **not** work with FAWE \(Fast Async World Edit\)
 {% endhint %}
-
-#### Gathering files
 
 {% hint style="warning" %}
 > The installation of the plugin requires both EpicWorldGenerator and WorldEdit.
