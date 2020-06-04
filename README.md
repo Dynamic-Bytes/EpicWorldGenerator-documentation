@@ -16,6 +16,10 @@ Congratulations on selecting EpicWorldGenerator as your world generator! Your se
 
 An easy-to-understand installation guide can be found [here](https://docs.dynamic-bytes.com/beginner/basic-installation).
 
+{% hint style="danger" %}
+> This plugin does **not** work with FAWE \(Fast Async World Edit\)
+{% endhint %}
+
 #### Table of contents
 
 The table of contents can be found [here](https://docs.dynamic-bytes.com/table-of-contents).

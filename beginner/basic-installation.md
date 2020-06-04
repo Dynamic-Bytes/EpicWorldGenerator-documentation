@@ -6,6 +6,10 @@ description: Most basic guide on installing the plugin
 
 This is the simplest and fastest way of installing this plugin. You can also follow the [recommended installation](https://docs.dynamic-bytes.com/beginner/recommended-installation). If you have any issues with any of the steps in this process, make sure to contact our support team at [Discord](https://discord.gg/Jq3ecb3).
 
+{% hint style="danger" %}
+> This plugin does **not** work with FAWE \(Fast Async World Edit\)
+{% endhint %}
+
 1. Stop your server.   
 2. Delete the `*/world` folder.
 
