@@ -18,7 +18,7 @@ description: All pages in this wiki are listed here
 * [World configuration](https://docs.dynamic-bytes.com/beginner/world-configuration)
   * [World settings](https://docs.dynamic-bytes.com/beginner/world-settings)
   * [Biome settin](https://docs.dynamic-bytes.com/beginner/biome-settings)
-    * Customise chest contents
+    * [Customise chest contents](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings/customise-chests)
     * [Customise ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 
