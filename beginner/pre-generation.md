@@ -6,6 +6,18 @@ description: Guide on pre-generating your map. Advisable to prevent lag.
 
 This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more well-known and overall better integrated plugin \(works better with other plugins, usually\). Though, on the other side, Chunkmaster is much, much faster when it comes to generating a world.
 
+## READ THIS WARNING.
+
+{% hint style="danger" %}
+> Pre generating your world with EWG means you **can't**, under **any** circumstance, use the `async-chunks` feature Paper provides you with. This has an extremely high likeliness of crashing your server with the latest version of the plugin.
+>
+> The same goes for the use of FAWE, or Fast Async World Generation. You cannot use the plugin to pre-generate your world since it is not compatible with EWG.
+{% endhint %}
+
+## 
+
+**Information**
+
 {% hint style="success" %}
 > We advise you to make use of Chunkmaster for pre-generating your world over WorldBorder. This is because \(after thorough testing\) we found a 50% speed increase at the start, and no memory leak in the long term. You can use WorldBorder alonside Chunkmaster.
 {% endhint %}
