@@ -18,6 +18,7 @@ description: The FAQ section - Quite a few regular issues are listed here
 * VII. How do I pre-generate a world?
 * VIII. How do I disable biomes I don't like?
 * IIX. Can I remove the plugin after I generated a map?
+* IX. Why are their weird half-black chunks on my \(Dyn\)map?
 
 #### I. Where do I find the configuration files?
 
@@ -165,6 +166,23 @@ You can remove the plugin after you generated a map. Keep in mind, however, that
 * Mobs will not spawn correctly
 * You cannot make new chunks \(generated after the rest of the map\)
 * Lagg can occur because of the aforementioned issues
+
+#### IX. Why are there weird half-black chunks on my \(Dyn\)map?
+
+There is a known bug in Spigot / Paper \(not our end\), that gives black areas in your map, such as this:  
+
+
+![Example of a half-black chunk on the map](.gitbook/assets/afbeelding%20%2812%29.png)
+
+Unfortunately, there is no built-in solution to this issue, other than using an additional [plugin called Light Cleaner](https://www.spigotmc.org/resources/light-cleaner.42469). After installing the plugin, run `/cleanlight world <world name>` from in game, or run `cleanlight world <world name>` from the console. The plugin will then get to work on fixing these issues in the world with `<world name>` name.
+
+{% hint style="info" %}
+> You can track the cleaning progress with `/cleanlight status` in game, or with `cleanlight status` in the console.
+{% endhint %}
+
+{% hint style="info" %}
+> There is a setting in the plugin's config which dictates whether or not the plugin should continually check and light-sweep newly generated chunks. This setting is on by default but can be turned off.
+{% endhint %}
 
 #### Support
 
