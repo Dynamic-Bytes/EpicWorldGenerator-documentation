@@ -34,6 +34,10 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 > With both of the installations, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticeable effect on the map.
 {% endhint %}
 
+{% hint style="success" %}
+> It is better to use Spigot over Paper since there are notably less bugs and glitches with spigot during generation. After you are done pre-generating the world, you can always change.
+{% endhint %}
+
 #### [World Border](https://www.spigotmc.org/resources/worldborder.60905/)
 
 _\(Click the title for a link to the plugin\)_
