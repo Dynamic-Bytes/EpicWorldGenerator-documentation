@@ -11,7 +11,7 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 {% hint style="danger" %}
 > Pre generating your world with EWG means you **can't**, under **any** circumstance, use the `async-chunks` feature Paper provides you with. This has an extremely high likeliness of crashing your server with the latest version of the plugin.
 >
-> The same goes for the use of FAWE, or Fast Async World Generation. You cannot use the plugin to pre-generate your world since it is not compatible with EWG.
+> The same goes for the use of FAWE, or Fast Async World Generation. You cannot use the plugin to pre-generate your world since it is not always compatible with EWG and can completely nullify your progress, with no noticable gain in generation speed to make up for it
 {% endhint %}
 
 ## 
