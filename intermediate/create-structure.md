@@ -10,6 +10,11 @@ In EpicWorldGenerator, all structures is generated using "EWG Object". The objec
 
 An EWG object can be used both under `"customTrees"` and `"customStructures"`.
 
+{% hint style="success" %}
+> A video tutorial on this process was made by Maiskorf. You can find this video [here](https://www.youtube.com/watch?v=q1sa6oVrN8Q&feature=youtu.be).  
+> Keep in mind that this video might sligthly differ from the latest version.
+{% endhint %}
+
 #### Create a new structure file
 
 1. Select an object using world edit
