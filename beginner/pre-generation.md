@@ -23,15 +23,15 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 {% endhint %}
 
 {% hint style="warning" %}
-> In order to be able to use this, make sure you [have EWG installed](basic-installation.md)
+> In order to be able to use this, make sure you already [have EWG installed](basic-installation.md)
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 > EpicWorldGenerator comes with a setting that allows you to cut off the world at a certain square size. Check [this](https://docs.dynamic-bytes.com/beginner/world-settings) under the world border header.
 {% endhint %}
 
 {% hint style="warning" %}
-> With both of the installations, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticeable effect on the map.
+> With both World Border and Chunkmaster, the plugin may very well throw errors where it either `Tried to load a block entity for block` or `Tried to load a DUMMY block entity` and failed. Do not worry, this will have no noticeable effect on the map.
 {% endhint %}
 
 {% hint style="success" %}
@@ -43,10 +43,10 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 _\(Click the title for a link to the plugin\)_
 
 {% hint style="info" %}
-> Note that it is advisable to use 8 GB of RAM **at a bare minimum** in this process. 10 GB or more is preferred.
+> Note that it is advisable to use 6 GB of RAM **at a bare minimum** in this process. 10 GB or more is preferred.
 {% endhint %}
 
-After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)\), follow the upcoming list of actions, in order to fully pre-generate your world.   
+After completing the basic EWG installation, add any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)\). After that, follow the upcoming list of steps, in order to fully pre-generate your world.   
   
 1. Download [World Border](https://www.spigotmc.org/resources/worldborder.60905/) and put it in your `*/plugins` folder.   
 2. Start the server.   
@@ -60,16 +60,16 @@ After completing the basic EWG installation, adding any custom biomes you might 
 5. Fill the world with chunks: `/wb <world name> fill 20 <padding> true` 
 
 {% hint style="info" %}
-> Replace `<world name>` by the exact, higher- and lowercase sensitive, name of the world \(usually "world"\). Also, replace `<padding>` with the outcome of the following function: `32 * (renderdistance + 1)`. You can find the render distance in your `*/server.properties` file on the fourth line: `view-distance=8`. Eg. \(using 8 as the render distance in the "world" world\): `32 * (8+1) = 288`, so you would ultimately run `/wb world fill 20 288 true`.
+> Replace `<world name>` by the exact, higher- and lowercase sensitive, name of the world \(usually `world`\). Also, replace `<padding>` with the outcome of the following function: `32 * (renderdistance + 1)`. You can find the render distance in your `*/server.properties` file on the fourth line: `view-distance=8`. Eg. \(using 8 as the render distance in the "world" world\): `32 * (8+1) = 288`, so you would ultimately run `/wb world fill 20 288 true`.
 {% endhint %}
 
 6. Confirm the fill command by using `/wb fill confirm`. 
 
 {% hint style="warning" %}
-> Note that if, at any point in the process of the filling process, the server **crashes** \(restarting doesn't matter\), you must run `/wb fill cancel` as soon as the server starts again, and continue the process with the same command as before, but using `false` at the end \(to stick with the example: `/wb world fill 20 288 false`, followed, once again, by `/wb fill confirm`\)
+> Note that if, at any point in the process of the filling process, the server **crashes** \(restarting doesn't matter\), you must run `/wb fill cancel` as soon as the server restarts. After that, continue the process with the same command as before, but using `false` at the end.       \(To stick with the example: `/wb world fill 20 288 false`, once again followed by `/wb fill confirm`\)
 {% endhint %}
 
-7. Wait for the world generation to be done and enjoy the map! 
+7. Wait for the world generation to complete and enjoy the map! 
 
 {% hint style="info" %}
 > You can check on the progress of the generation task in the console.
@@ -80,11 +80,15 @@ After completing the basic EWG installation, adding any custom biomes you might 
 _\(Click the title for a link to the plugin\)_
 
 {% hint style="warning" %}
-> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM than WorldBorder, but keep in mind that 5 GB or more is still advisable for this to work at reasonable performance or better.
+> Note that a pre-generation process can take a large amount of RAM. This plugin is more lightweight and generally better at managing RAM than WorldBorder, but keep in mind that 5 GB or more is still advisable for this to work at reasonable or better speeds.
 {% endhint %}
 
 {% hint style="success" %}
 > For the highest speed of generation, use this plugin on [Paper](https://papermc.io/downloads), rather than [Spigot](https://hub.spigotmc.org/jenkins/job/BuildTools/org.spigotmc$builder/lastBuild/).
+{% endhint %}
+
+{% hint style="warning" %}
+> Note that Paper is less stable than Spigot in some cases. Use at your own risk.
 {% endhint %}
 
 After completing the basic EWG installation, adding any custom biomes you might want \(like: [Maiskorf's Additional Biome Pack](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)\), follow the upcoming list of actions, in order to fully pre-generate your world. 
@@ -180,7 +184,7 @@ dynmap: true
 6. Leave the server \(so the generation task starts, unless you have `pause-on-join:` set to `false`\).
 
 {% hint style="danger" %}
-> Right after running the command and leaving the server, you **must** check the console to see if it actually started. If it did not, use `chm resume 1` in the console. The 1 changes to a two, if this is the second time you run the plugin.
+> Right after running the command and leaving the server, you **must** check the console to see if it actually started. If it did not, use `chm resume 1` in the console. The 1 increases by one every time you start a new task with Chunkmaster.
 {% endhint %}
 
 7. Wait for the world generation to be done and enjoy the map!
@@ -190,7 +194,7 @@ dynmap: true
 {% endhint %}
 
 {% hint style="success" %}
-> Please contact Coco if you are **not** getting more than an average of 25 chunks per seconds in the generation task, so we can improve performance and improve this tutorial.  
+> Please contact Coco if you are **not** getting more than an average of 25 chunks per seconds in the generation task, so we can both improve performance and improve this tutorial.  
 > \(Please don't jump to conclusions, and wait for at least 15 minutes to get an accurate speed\)
 {% endhint %}
 
