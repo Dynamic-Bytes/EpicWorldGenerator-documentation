@@ -23,17 +23,17 @@ You can follow parts of this tutorial and skip others. For example, you can skip
 
 It is best to always make a master folder in which you make your server. For this tutorial, we create a folder called `server` on our desktop. You can rename or move this folder at any time if you want, as long as the server is offline when you do.
 
-![Empty server folder on the desktop](../../.gitbook/assets/image%20%285%29.png)
+![Empty server folder on the desktop](../../.gitbook/assets/image%20%287%29.png)
 
 #### I.II. Downloading and installing paper
 
 After making a folder on your desktop or offsite server, download the latest build of paper [here](https://papermc.io/downloads), by clicking the download button for the latest build. At the moment of making this tutorial, that number is \#353.
 
-![PaperMC download page](../../.gitbook/assets/image%20%2817%29.png)
+![PaperMC download page](../../.gitbook/assets/image%20%2822%29.png)
 
 Move paper from your downloads folder to the `server` folder we created earlier.
 
-![Paper jar in the server folder](../../.gitbook/assets/image%20%2819%29.png)
+![Paper jar in the server folder](../../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="warning" %}
 > Your paper jar file will have 3 digits instead of \#\#\#. This number changes depending on what build PaperMC currently provides.
@@ -51,7 +51,7 @@ Follow the steps from there and hit close at the last screen.
 
 Go back to the `server` folder we created earlier, and create a new text file called `run.txt`.
 
-![The new run.txt file](../../.gitbook/assets/image%20%2813%29.png)
+![The new run.txt file](../../.gitbook/assets/image%20%2816%29.png)
 
 Open the `run.txt` file and paste in the following startup flags and runtime settings:
 
@@ -74,16 +74,16 @@ PAUSE
 
 After replacing the `paper-###.jar` filename with the correct name, click `File`, followed by `Save As...` 
 
-![File and Save As...](../../.gitbook/assets/image%20%2818%29.png)
+![File and Save As...](../../.gitbook/assets/image%20%2824%29.png)
 
 Then rename `run.txt` to `run.batr` and click save.  
 
 
-![Renamed to run.bat](../../.gitbook/assets/image%20%2815%29.png)
+![Renamed to run.bat](../../.gitbook/assets/image%20%2820%29.png)
 
 Run the server by double-clicking run.bat
 
-![Doubleclick run.bat](../../.gitbook/assets/image%20%287%29.png)
+![Doubleclick run.bat](../../.gitbook/assets/image%20%289%29.png)
 
 run the `paper-###.jar` file.
 
@@ -91,7 +91,7 @@ run the `paper-###.jar` file.
 > Once again, the `###` are different depending on your paper version.
 {% endhint %}
 
-![Console window that opens after executing run.bat](../../.gitbook/assets/image%20%286%29.png)
+![Console window that opens after executing run.bat](../../.gitbook/assets/image%20%288%29.png)
 
 {% hint style="warning" %}
 > If you get the following error: `The specified size exceeds the maximum representable size.`  
@@ -104,7 +104,7 @@ The server will throw an error every time you try to run it, unless you accept t
 
 Open the `eula.txt` file and change `eula=false` to `eula=true` so your file looks like follows:
 
-![EULA file after accepting the EULA.](../../.gitbook/assets/image%20%2811%29.png)
+![EULA file after accepting the EULA.](../../.gitbook/assets/image%20%2814%29.png)
 
 Close the file and save it.
 
@@ -122,11 +122,11 @@ After the console prompt's last message is `Timings reset`, close the console by
 > Never close the command prompt by simply clicking the red cross at the top. This will cause your server to not save and potentially ruin many different files, configurations and more.
 {% endhint %}
 
-![Server GUI with the stop command already entered](../../.gitbook/assets/image%20%289%29.png)
+![Server GUI with the stop command already entered](../../.gitbook/assets/image%20%2811%29.png)
 
 The `server` folder should now look like this:
 
-![Server folder with it&apos;s new contents](../../.gitbook/assets/image%20%282%29.png)
+![Server folder with it&apos;s new contents](../../.gitbook/assets/image%20%284%29.png)
 
 {% hint style="info" %}
 > The images before all the `.json`and `.yml.`files may be different for me than for you. This is because of different default file editors. I will be using [Visual Studio Code](https://code.visualstudio.com/Download#) for editing configuration files throughout this tutorial. You don't have to download the editor, but I do recommend it as it easily shows errors in many different files \(with many different file types\).
@@ -145,7 +145,7 @@ Paper makes use of a layered setting structure, each layer of settings applying 
 
 Open the server.properties file \(if you have installed [Visual Studio Code](https://code.visualstudio.com/Download#), right-click the file, click `Open with`, select Visual Studio Code and click open.
 
-![server.properties file](../../.gitbook/assets/image%20%2822%29.png)
+![server.properties file](../../.gitbook/assets/image%20%2829%29.png)
 
 In this file, change the following settings:
 
@@ -177,7 +177,7 @@ Feel free to change any other settings in the file. They do not affect performan
 
 Open `bukkit.yml` from the `server` folder.
 
-![Bukkit.yml file](../../.gitbook/assets/image%20%281%29.png)
+![Bukkit.yml file](../../.gitbook/assets/image%20%283%29.png)
 
 Change the spawn rates of mobs, animals and others to decrease lag if they cause lag. This setting affects mobs-per-player, meaning the more players, the higher the mobcap.
 
@@ -350,7 +350,7 @@ world\_nether: keep-spawn-loaded: false auto-save-interval: 9020 anti-xray: enab
 
 #### II.IV. Paper.yml
 
-![Paper.yml file](../../.gitbook/assets/image%20%284%29.png)
+![Paper.yml file](../../.gitbook/assets/image%20%286%29.png)
 
 ```javascript
 enable-player-collisions: true
@@ -481,24 +481,24 @@ Toggling `disable-move-event:` to `true` will drastically improve hopper perform
 
 ##  III. Installing EWG \(and related plugins\)
 
-TO-DO
+#### III.I.
 
+Download the following files:
 
+- [EWG](https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-15-2-support-all-update-aquatic-features.8067/),  
+- [WorldEdit](https://dev.bukkit.org/projects/worldedit),
 
 {% hint style="danger" %}
-> EWG does **not** work with FAWE \(Fast Async World Edit\) or Asynchronous World Edit \(World Edit Add-on\)
+> EWG does sometimes work with FAWE \(Fast Async World Edit\) or Asynchronous World Edit \(World Edit Add-on\), but we strongly advise against using these while pre-generating. They provide barely, if any, performance increase at the cost of stability.
 {% endhint %}
 
-1. Download and put the [EWG](https://www.spigotmc.org/resources/epicworldgenerator-1-14-1-15-2-support-all-update-aquatic-features.8067/) and [WorldEdit](https://dev.bukkit.org/projects/worldedit) plugins in the `*/plugin` folder.
-
-{% hint style="warning" %}
-> The installation of the plugin requires both EpicWorldGenerator and WorldEdit.
-{% endhint %}
-
-2. Download any additional add-ons
+- [Chunkmaster](https://www.spigotmc.org/resources/chunkmaster.71351/),  
+- [Multiverse Core](https://dev.bukkit.org/projects/multiverse-core) \(if you are looking to make additional worlds, other than the default worlds\),  
+- [ENG](https://www.spigotmc.org/resources/epicnethergenerator-ewg-add-on-new-version.25678/) and EEG \(these two are optional\),  
+- And any additional add-ons
 
 {% hint style="info" %}
-> A strongly recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack). If you want to add these later on, make sure to download them now, before continuing using [this link](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej).
+> A strongly recommended, yet optional, add-on is the [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack). If you want to add these later on, make sure to download them now, before continuing using [this link](https://1drv.ms/u/s!AmrRJ70wu8OUgZQbXJeaeZmp1FT41A?e=1Oejej). The link to the guide will be re-posted at the time it should be installed.
 {% endhint %}
 
 ![Maiskorf&apos;s Additional Biome Pack](../../.gitbook/assets/afbeelding%20%281%29.png)
@@ -513,9 +513,37 @@ TO-DO
 
 ![Zikiv&apos;s Mushroom Biome \(Included in the latest version of Maiskorf&apos;s pack\)](../../.gitbook/assets/afbeelding%20%288%29.png)
 
-#### Installing
+#### III.II. Installing the plugins
 
-WORK IN PROGRESS
+After downloading all the plugins, move them to the `*/plugins` folder in your server.
+
+{% hint style="info" %}
+> The Epic Nether Generator plugin comes in the form of a zip file. Extract the file and remove all that comes out except for the EpicNetherGenerator-2.\#.\#.jar file.
+{% endhint %}
+
+Your plugin folder should now look likes this:
+
+![Plugin folder](../../.gitbook/assets/image%20%281%29.png)
+
+Start the server and stop it once the last message in the console is `Timings reset`.
+
+#### III.III. Configuring the plugins
+
+After installing the plugins and running the server your plugin folder should now look like this:
+
+![Plugin folder after installation](../../.gitbook/assets/image%20%2818%29.png)
+
+For the sake of explaining Multiverse Core we will make a new world for the tutorial.
+
+Start the server and wait for it to initialise \(last entry in the console should be `Timings reset`\).  
+Run the `/mv create WorldName normal` command from in game, or without the `/` from the console.  
+Wait for the server to notify you `CONSOLE: Complete!` and stop the server.
+
+You now have a new folder in the server folder:
+
+![World created with /mv create TestWorld normal](../../.gitbook/assets/image%20%2819%29.png)
+
+Open the folder 
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 

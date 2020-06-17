@@ -61,7 +61,7 @@ The `World Boimes map color.png` \("Boimes" is typo-ed\) contains the colors you
 8. Copy everything in this folder and paste it into your server
 
 {% hint style="info" %}
-If you already have any of these plugins installed, you don't have to copy the `.jar` file for that plugin. Make sure to **always** replace the EpicWorldGenerator folder in your server, even though it is already in there, since this contains the schematics for the world. \(It is not the same folder\)
+If you already have any of these plugins installed, you don't have to copy the `.jar` file for that plugin. Make sure to **always** replace the EpicWorldGenerator folder in your server, even though it is already in there, since this contains the schematics for the world. \(The contents of the folder are not the same\)
 {% endhint %}
 
 9. Continue with the [Recommended Installation](https://docs.dynamic-bytes.com/beginner/recommended-installation) or [Frequently Asked Questions](https://docs.dynamic-bytes.com/beginner/recommended-installation) if you came from either of these. If you did not, remove the `regions` folder which you can find in your `*/<world name>/regions`, and restart the server.

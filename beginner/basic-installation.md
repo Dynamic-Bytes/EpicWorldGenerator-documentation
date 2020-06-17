@@ -21,7 +21,7 @@ This is the simplest and fastest way of installing this plugin. You can also fol
 4. Start the server, wait for it to load, and then stop the server.
 
 {% hint style="info" %}
-> If you don\'t have any worlds you do not want EWG to generate in, you can skip to step 6.
+> If you don't have any worlds you do not want EWG to generate in, you can skip to step 6.
 {% endhint %}
 
 5. Go to the `settings.json` file, which you can find at `*/plugins/EpicWorldGenerator/` and locate the `worldsWithDefaultWG` section. 
