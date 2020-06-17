@@ -527,13 +527,13 @@ Your plugin folder should now look likes this:
 
 Start the server and stop it once the last message in the console is `Timings reset`.
 
-#### III.III. Configuring the plugins
+#### III.III. Creating a new world and adding biomes
 
 After installing the plugins and running the server your plugin folder should now look like this:
 
 ![Plugin folder after installation](../../.gitbook/assets/image%20%2818%29.png)
 
-For the sake of explaining Multiverse Core we will make a new world for the tutorial.
+For the sake of explaining Multiverse Core we will be making a new world for the tutorial.
 
 Start the server and wait for it to initialise \(last entry in the console should be `Timings reset`\).  
 Run the `/mv create WorldName normal` command from in game, or without the `/` from the console.  
@@ -543,7 +543,23 @@ You now have a new folder in the server folder:
 
 ![World created with /mv create TestWorld normal](../../.gitbook/assets/image%20%2819%29.png)
 
-Open the folder 
+This is where you would follow the [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack) and install the settings into the newly created world `TestWorld` \(if you are following along with Multiverse\) or the default `world` folder \(if you are not\).
+
+## IV. Pre-generating the world
+
+To keep this tutorial from being even longer than it already is, follow [this](https://docs.dynamic-bytes.com/beginner/pre-generation) tutorial in order to pre-generate the world. There is also a tutorial for WorldBorder in there, but we are using Chunkmaster because of better performance.
+
+
+
+Wow, you made it through the tutorial. Congratulations!
+
+I hope you can still breathe and your heart still beats, could be useful.
+
+Let me know if any of the links don't work, I just copy-pasted most of them and there can be typos in the URL's, who knows. It's 3:30 AM at the time I'm finishing this so I'm not very sharp. 
+
+Feel free to ask in the support channels on Discord for any help with this. I expect many to have issues with installing Java, the runtime flags or people making mistakes in the settings files. Hopefully, I can make those parts clearer and more idiot-proof over time. 
+
+Thanks for reading! Coco.
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
