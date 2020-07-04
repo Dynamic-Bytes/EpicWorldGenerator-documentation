@@ -75,8 +75,9 @@ In the vast majority of the cases in which this occurs, it is caused by user-err
 > Before making a world with this plugin, you must make sure that the region folder \(`*/<world name>/regions`\) was removed right after the plugin was installed.
 {% endhint %}
 
-It is limited as to what you can do to resolve the problem, but here are some option;
+It is limited as to what you can do to resolve the problem, but here are some options;
 
+* _\(New experimental option\)_ Select blocks \(using [WorldEdit](https://dev.bukkit.org/projects/worldedit)\) in all the chunks with the issue, use `//chunk -s`followed by `/delchunks`. Moving back into the chunks will re-generate them.
 * Delete the region files \(See [region file tool](https://dinnerbone.com/minecraft/tools/coordinates/) for chunk/coordinate to file conversion\). The chunk files are saved at `*/<world name>/region/`.
 * Trim the world using world border, if the new chunks are on the edge of the map; [WorldBorder Plugin](https://www.spigotmc.org/resources/worldborder.60905/), using the `/worldborder trim` command.
 * Overhaul **all** the chunks in the world using the force generation tool provided by [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/); `/worldborder fill 20 208 true`.
