@@ -97,7 +97,7 @@ An optional plugin to replace Multiverse for 1.16.1 is MyWorlds, which you can f
     </tr>
     <tr>
       <td style="text-align:left">1.8.9 Spigot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">7.2.30</td>
       <td style="text-align:left">No</td>
       <td style="text-align:left">
         <p>WorldEdit</p>
