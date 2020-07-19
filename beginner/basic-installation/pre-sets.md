@@ -31,7 +31,7 @@ description: >-
         <p>WorldEdit</p>
         <p>Essentials</p>
       </td>
-      <td style="text-align:left"><a href="https://drive.google.com/file/d/1DKslk6oCxRWQT4iUiGam5MDtHKPQ40i2/view?usp=sharing">Link</a>
+      <td style="text-align:left"><a href="https://drive.google.com/file/d/1az34V-un69Fugx-9rrHG3jDk100Oqb05/view?usp=sharing">Link</a>
       </td>
     </tr>
     <tr>
@@ -42,7 +42,7 @@ description: >-
         <p>WorldEdit</p>
         <p>Essentials</p>
       </td>
-      <td style="text-align:left"><a href="https://drive.google.com/file/d/1TjQwMT9KHNqQ84olAwCHXI6eol6IrWjY/view?usp=sharing">Link</a>
+      <td style="text-align:left"><a href="https://drive.google.com/file/d/1F2aNWHZLBhEJJ3I6y2aZcOrq8LCnt1sr/view?usp=sharing">Link</a>
       </td>
     </tr>
     <tr>
