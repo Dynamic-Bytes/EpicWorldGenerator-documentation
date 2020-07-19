@@ -12,6 +12,8 @@ description: >-
 > Make sure to use the version\(s\) under the "EWG/ENG Version" header.
 {% endhint %}
 
+An optional plugin to replace Multiverse for 1.16.1 is MyWorlds, which you can find [here](https://www.spigotmc.org/resources/myworlds.39594/). Mind you, this is an experimental 1.16 server and it may contain bugs.
+
 <table>
   <thead>
     <tr>
