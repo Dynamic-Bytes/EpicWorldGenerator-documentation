@@ -124,5 +124,10 @@ description: >-
 
 If you run into issues with any of these files \(like broken links, struggles with the installation / configuration, etc.\), make sure to contact our support team on our [Discord](https://discord.gg/Jq3ecb3).
 
-**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
+**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**  
+  
+Dear spigot legal person  
+If you're thinking of punishing EWG for distributing a non-edited copy of Spigot, please don't.  
+Contact Coco\#2000 on Discord and ask him to remove it, it shall be promptly removed.  
+We take no credit for the Spigot jar files and they are in no way ours.
 
