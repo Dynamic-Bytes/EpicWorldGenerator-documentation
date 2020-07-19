@@ -5,6 +5,7 @@
 * [Commands](commands.md)
 * [Verify your purchase](verification.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
+* [Versioning](versioning.md)
 
 ## BEGINNER
 
