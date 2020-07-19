@@ -33,7 +33,7 @@ You can contact the support team through our [Discord](https://discord.gg/Jq3ecb
 #### Contributors
 
 This wiki has been made possibly by the hard work of these people:  
+\* Coco  
 \* Minelazz  
-\* Jake  
-\* Coco
+\* Jake
 
