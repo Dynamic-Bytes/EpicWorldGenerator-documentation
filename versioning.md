@@ -27,8 +27,8 @@ description: >-
     <tr>
       <td style="text-align:left">1.9 - 1.14</td>
       <td style="text-align:left">
-        <p>No proper version available,</p>
-        <p>Ususally unstable.</p>
+        <p>No version available or</p>
+        <p>unstable.</p>
       </td>
     </tr>
     <tr>
