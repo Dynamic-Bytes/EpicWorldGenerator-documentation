@@ -100,6 +100,8 @@ After completing the basic EWG installation, adding any custom biomes you might 
 
 Low-end machines \(~5 GB RAM and low-end CPU's\):
 
+![As you can see here, I have been pre-generating on 1.15.2 for hours, without exceeding 1.5GB of RAM](../.gitbook/assets/afbeelding%20%2813%29.png)
+
 ```text
 generation:
   period: 2
