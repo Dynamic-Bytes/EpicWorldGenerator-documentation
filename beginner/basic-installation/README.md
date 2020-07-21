@@ -49,9 +49,8 @@ Example: I have two worlds named `pumpkin` and `melon` in my server. I do not wa
   ],
 ```
 
-6. Possibly install the add-on [Tree Feller](https://www.spigotmc.org/resources/tree-feller-ewg-addon.20385/).  
-7. Start the server.  
-8. Enjoy the plugin!
+6. Start the server.  
+7. Enjoy the plugin!
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
