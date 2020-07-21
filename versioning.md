@@ -41,7 +41,7 @@ description: >-
 #### Support
 
 If you are still having issues after trying these versions, make sure to contact support on our [Discord](https://discord.gg/Jq3ecb3).  
-Before you do, though, please try the version with a serial number 1 lower and 1 higher first, and contact us if that was successful \(so we can update this page accordingly\).
+Before you do, though, please try the version with a serial number 1 lower and 1 higher first, and contact us if that was successful \(so we can update this page accordingly\), if it was not successful, so we can help you find the right version.
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
