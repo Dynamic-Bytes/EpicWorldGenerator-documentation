@@ -8,6 +8,11 @@ description: Welcome to the EpicWorldGenerator wiki!
 
 ## This plugin works with Paper Spigot 1.15.2!
 
+{% hint style="danger" %}
+> This plugin does **NOT** work with Paper 1.16.1. We are awaiting an update.  
+> For the time being, you can either use Spigot 1.16.1, or [pre-generate](https://docs.dynamic-bytes.com/beginner/pre-generation) a world on 1.15.2, and put that in your 1.16.1 server \(after uninstalling EWG\).
+{% endhint %}
+
 _EpicWorldGenerator brings you the most powerful world generator ever made to minecraft. Customize the plugin to generate the world you and your players have always dreamed about. Whether you want to create your own biomes or select pre-made ones; EpicWorldGenerator is here to take your server to the next level._
 
 Congratulations on selecting EpicWorldGenerator as your world generator! Your server will soon be super-charged with one of the most epic world generation tools out there!
