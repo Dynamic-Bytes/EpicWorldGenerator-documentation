@@ -44,7 +44,7 @@ An optional plugin to replace Multiverse for 1.16.1 is MyWorlds, which you can f
         <p>WorldEdit</p>
         <p>Essentials</p>
       </td>
-      <td style="text-align:left"><a href="https://drive.google.com/file/d/1F2aNWHZLBhEJJ3I6y2aZcOrq8LCnt1sr/view?usp=sharing">Link</a>
+      <td style="text-align:left"><a href="https://drive.google.com/file/d/15l3WKst9rbIJ5slghctOmO4M226C8xCT/view?usp=sharing">Link</a>
       </td>
     </tr>
     <tr>
