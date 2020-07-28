@@ -10,7 +10,7 @@
 ## BEGINNER
 
 * [Basic installation](beginner/basic-installation/README.md)
-  * [Pre-sets](beginner/basic-installation/pre-sets.md)
+  * [Pre-sets \(Can be reinstated later.\)](beginner/basic-installation/pre-sets.md)
 * [Recommended installation](beginner/recommended-installation/README.md)
   * [Maiskorf's Additional Biome Pack \(Guide\)](beginner/recommended-installation/maiskorfs-additional-biome-pack.md)
 * [Pre-generation](beginner/pre-generation.md)
