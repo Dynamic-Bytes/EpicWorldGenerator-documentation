@@ -13,7 +13,7 @@ description: All pages in this wiki are listed here
 **Configuration - Beginner**
 
 * [Basic installation](https://docs.dynamic-bytes.com/beginner/basic-installation)
-  * [Pre-sets](https://docs.dynamic-bytes.com/beginner/basic-installation/pre-sets)
+  * [Pre-sets](https://docs.dynamic-bytes.com/beginner/basic-installation/pre-sets) \(No longer supported since too many updates\)
 * [Recommended installation](https://docs.dynamic-bytes.com/beginner/recommended-installation)
   * [Maiskorf's Additional Biome Pack](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack)
 * [Pre-generation](https://docs.dynamic-bytes.com/beginner/pre-generation)
