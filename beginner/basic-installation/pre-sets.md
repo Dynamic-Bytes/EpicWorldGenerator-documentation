@@ -33,8 +33,7 @@ An optional plugin to replace Multiverse for 1.16.1 is MyWorlds, which you can f
         <p>WorldEdit</p>
         <p>Essentials</p>
       </td>
-      <td style="text-align:left"><a href="https://drive.google.com/file/d/1az34V-un69Fugx-9rrHG3jDk100Oqb05/view?usp=sharing">Link</a>
-      </td>
+      <td style="text-align:left">Link</td>
     </tr>
     <tr>
       <td style="text-align:left">1.16.1 Spigot</td>
@@ -44,8 +43,7 @@ An optional plugin to replace Multiverse for 1.16.1 is MyWorlds, which you can f
         <p>WorldEdit</p>
         <p>Essentials</p>
       </td>
-      <td style="text-align:left"><a href="https://drive.google.com/file/d/15l3WKst9rbIJ5slghctOmO4M226C8xCT/view?usp=sharing">Link</a>
-      </td>
+      <td style="text-align:left">Link</td>
     </tr>
     <tr>
       <td style="text-align:left">1.15.2 Spigot</td>
