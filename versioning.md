@@ -15,6 +15,10 @@ description: >-
 > The 1.8.9 version seems to be stable.
 {% endhint %}
 
+{% hint style="info" %}
+> We currently await the .34 update to fix ENG compatibility.
+{% endhint %}
+
 | Minecraft Version \(Links to EWG\) | EWG / ENG Version |
 | :--- | :--- |
 | [1.16.1](https://www.spigotmc.org/resources/epicworldgenerator-1-15-1-16-1.8067/) | Latest \(Both [ENG ](https://www.spigotmc.org/resources/epicnethergenerator-ewg-add-on.25678/)and [EWG](https://www.spigotmc.org/resources/epicworldgenerator-1-15-1-16-1.8067/)\) |
