@@ -191,7 +191,7 @@ generation:
   autostart: true
 database:
   filename: chunkmaster.db
-language: de
+language: en
 dynmap: true
 ```
 
@@ -208,7 +208,7 @@ generation:
   autostart: true
 database:
   filename: chunkmaster.db
-language: de
+language: en
 dynmap: true
 ```
 
@@ -225,7 +225,7 @@ generation:
   autostart: true
 database:
   filename: chunkmaster.db
-language: de
+language: en
 dynmap: true
 ```
 
@@ -242,7 +242,7 @@ generation:
   autostart: true
 database:
   filename: chunkmaster.db
-language: de
+language: en
 dynmap: true
 ```
 
