@@ -102,6 +102,8 @@ Low-end machines \(~5 GB RAM and low-end CPU's\):
 
 ![As you can see here, I have been pre-generating on 1.15.2 for hours, without exceeding 1.5GB of RAM](../.gitbook/assets/afbeelding%20%2813%29.png)
 
+**1.15.2 Configuration**
+
 ```text
 generation:
   period: 2
@@ -172,8 +174,96 @@ language: en
 dynmap: true
 ```
 
+**1.16 config**
+
 {% hint style="info" %}
-> In all of these presets the `dynmap:`setting is on `true`.  
+> I did not personally test these settings. They are derived from the default settings as they come with the plugin.
+{% endhint %}
+
+```text
+generation:
+  mspt-pause-threshold: 500
+  pause-on-player-count: 2
+  max-pending-chunks: 125
+  max-loaded-chunks: 250
+  unloading-period: 40
+  ignore-worldborder: false
+  autostart: true
+database:
+  filename: chunkmaster.db
+language: de
+dynmap: true
+```
+
+Mid-end machines \(~7 GB RAM and medium-end CPU's\):
+
+```text
+generation:
+  mspt-pause-threshold: 500
+  pause-on-player-count: 2
+  max-pending-chunks: 250
+  max-loaded-chunks: 500
+  unloading-period: 50
+  ignore-worldborder: false
+  autostart: true
+database:
+  filename: chunkmaster.db
+language: de
+dynmap: true
+```
+
+High-end machines \(&gt;8 GB RAM and medium-high-end CPU's\):
+
+```text
+generation:
+  mspt-pause-threshold: 500
+  pause-on-player-count: 2
+  max-pending-chunks: 500
+  max-loaded-chunks: 1000
+  unloading-period: 50
+  ignore-worldborder: false
+  autostart: true
+database:
+  filename: chunkmaster.db
+language: de
+dynmap: true
+```
+
+Hosting server machines or extreme servers \(&gt;10 GB RAM and industrial CPU's used by hosting websites, many cores and threads\):
+
+```text
+generation:
+  mspt-pause-threshold: 500
+  pause-on-player-count: 1
+  max-pending-chunks: 750
+  max-loaded-chunks: 1500
+  unloading-period: 75
+  ignore-worldborder: false
+  autostart: true
+database:
+  filename: chunkmaster.db
+language: de
+dynmap: true
+```
+
+{% hint style="info" %}
+> For the 1.16 configuration, you can edit the following settings:
+>
+> * `unloading-period:`
+> * `max-pending-chunks:`
+> * `max-loaded-chunks:`
+>
+> For the 1.15 configuration, you can edit the following settings:
+>
+> * `chunks-per-step:`
+> * `max-pending-chunks:`
+> * `max-loaded-chunks:`
+>
+> Where changing to a lower number \(if your server is lagging\) or a higher number \(if your server has more calculating capacity or RAM leftover\), you will increase or decrease generating speed, while maintaining server stability.
+{% endhint %}
+
+{% hint style="info" %}
+> In all of these presets the `dynmap:`setting is on `true`. \(Both 1.15.2 and 1.16\)  
 > This allows you to render a [Dynmap](https://shockbyte.com/billing/knowledgebase/92/How-to-Set-Up-Dynmap.html) alongside generating the world, at the cost of about 10% performance. If you're not interested in a Dynmap, you are best off turning `dynmap:` to `false`.
 {% endhint %}
 
