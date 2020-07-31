@@ -4,7 +4,7 @@ description: Guide on verifying your purchase(s)
 
 # Verify your purchase
 
-In order for you to verify any purchases, you must follow a few steps. You must \(re\)do this for every of our plugins you purchase at once. This applies to EpicWorldGenerator, EpicNetherGenerator, \(EpicEndGenerator once it releases,\) or any combination of these.
+In order for you to verify any purchases, you must follow a few steps. You must \(re\)do this for every of our plugins you purchase at the same time. This applies to EpicWorldGenerator, EpicNetherGenerator, \(EpicEndGenerator once it releases,\) or any combination of these.
 
 #### Steps
 
