@@ -60,6 +60,12 @@ The file can be generated using different configurations. Each configuration has
 }
 ```
 
+{% hint style="info" %}
+> Under `"density"`, you can also use the scientific "E". This works as follows:  
+> E is the same as "Ten-to-the-power-of". In an example:  
+> `"density": 6.0E-6`. This equals to `6.0 * 10^-6`, which is the same as 0.000006.
+{% endhint %}
+
 {% hint style="success" %}
 > Adding contents to chests in your structures is a possibility. Check [this ](https://docs.dynamic-bytes.com/beginner/world-configuration/biome-settings/customise-chests)for a guide on how to do just that.
 {% endhint %}
