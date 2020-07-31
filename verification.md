@@ -6,10 +6,11 @@ description: Guide on verifying your purchase(s)
 
 In order for you to verify any purchases, you must follow a few steps. You must \(re\)do this for every of our plugins you purchase at the same time. This applies to EpicWorldGenerator, EpicNetherGenerator, \(EpicEndGenerator once it releases,\) or any combination of these.
 
-#### Steps
+### Steps
 
-1. [ ] Log into your [SpigotMC](https://www.spigotmc.org) account.
-2. [ ] Go to [Discord](https://discord.com/) and copy your Discord ID 
+1.  Log into your [SpigotMC](https://www.spigotmc.org) account.
+
+2.  Go to [Discord](https://discord.com/) and copy your Discord ID 
 
 {% hint style="danger" %}
 > This is not the same as your discord TAG, but rather an 18 digit number.
@@ -19,24 +20,30 @@ In order for you to verify any purchases, you must follow a few steps. You must 
 > You can find your Discord ID by enabling developer mode \(found under `Settings -> Appearance -> Advanced -> "Developer Mode"`\), right clicking on your name \(on any message in discord\) and clicking "Copy ID".
 {% endhint %}
 
-* [ ] Paste the discord ID in your [Spigot Status](https://www.spigotmc.org/account/) \(at the top\) and hit `enter`.
-* [ ] Go to our [Discord](https://discordapp.com/channels/576841187256827905/588109256377499667/) \(should take you to the [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/) channel\).
-* [ ] Post a message using the following format \(copy-pasting this is the easiest\):
+3.  Paste the discord ID in your [Spigot Status](https://www.spigotmc.org/account/) \(at the top\) and hit `enter`.
 
-  > Remove the plugins you **did not** purchase. Replace yourAccount.yourID with your spigot account name and ID, respectively.
-  >
-  > ```text
-  > **Plugins:** [EpicWorldGenerator, EpicNetherGenerator or EpicEndGenerator]
-  > **Spigot Profile Page:** https://www.spigotmc.org/members/yourAccount.yourID/
-  > ```
+4.  Go to our [Discord](https://discordapp.com/channels/576841187256827905/588109256377499667/) \(should take you to the [\#verify-purchases](https://discordapp.com/channels/576841187256827905/588109256377499667/) channel\).
 
-* [ ] Wait for a staffmember to verify you as a legitimate buyer. 
+5.  Post a message using the following format \(copy-pasting this is the easiest\):
+
+```text
+**Plugins:** [EpicWorldGenerator, EpicNetherGenerator or EpicEndGenerator]
+**Spigot Profile Page:** https://www.spigotmc.org/members/yourAccount.yourID/
+```
+
+{% hint style="info" %}
+> Simply copy-paste this message to make sure no errors are made.
+
+> Remove the plugins you **did not** purchase. Replace yourAccount.yourID with your spigot account name and ID, respectively.
+{% endhint %}
+
+6.  Wait for a staffmember to verify you as a legitimate buyer, providing you access to support channels.
 
 {% hint style="success" %}
 > Please allow for at least 2 days before pinging or DM-ing any staff to verify you.
 {% endhint %}
 
-#### Example
+### Example
 
 A correct verification looks as follows;   
 _This is for the spigot account named DynamicBytes, which has discord ID 012345678910111213 and purchased only EpicWorldGenerator._
