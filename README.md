@@ -6,7 +6,7 @@ description: Welcome to the EpicWorldGenerator wiki!
 
 ![](http://i.imgur.com/H6kA9jQ.png)
 
-## This plugin works with Paper Spigot 1.15.2!
+## This plugin works best with Paper Spigot 1.15.2!
 
 _EpicWorldGenerator brings you the most powerful world generator ever made to minecraft. Customize the plugin to generate the world you and your players have always dreamed about. Whether you want to create your own biomes or select pre-made ones; EpicWorldGenerator is here to take your server to the next level._
 

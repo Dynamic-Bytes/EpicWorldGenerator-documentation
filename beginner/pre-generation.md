@@ -16,6 +16,10 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 
 ## 
 
+{% hint style="warning" %}
+> For 1.16.1 & EWG, do not use Chunkmaster. It has been throwing non-bypassable errors for this version. You can use both WorldBorder and Chunky, where only a tutorial for WorldBorder is provided here.
+{% endhint %}
+
 **Information**
 
 {% hint style="success" %}
