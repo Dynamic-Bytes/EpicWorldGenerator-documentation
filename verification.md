@@ -6,6 +6,10 @@ description: Guide on verifying your purchase(s)
 
 In order for you to verify any purchases, you must follow a few steps. You must \(re\)do this for every of our plugins you purchase at the same time. This applies to EpicWorldGenerator, EpicNetherGenerator, \(EpicEndGenerator once it releases,\) or any combination of these.
 
+{% hint style="warning" %}
+> Without verifying, you will receive no support.
+{% endhint %}
+
 ### Steps
 
 {% hint style="info" %}
