@@ -16,8 +16,8 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 
 ## 
 
-{% hint style="warning" %}
-> For 1.16.1 & EWG, do not use Chunkmaster. It has been throwing non-bypassable errors for this version. You can use both WorldBorder and Chunky, where only a tutorial for WorldBorder is provided here.
+{% hint style="danger" %}
+> For 1.16.1 & EWG, do not use Chunkmaster. It has been throwing non-bypassable errors for this version. You can use both WorldBorder and Chunky, where only a tutorial for WorldBorder is provided here. The rest of this tutorial is made for 1.15.2, but works on 1.16.1 as well \(other than Chunkmaster\)
 {% endhint %}
 
 **Information**
@@ -27,7 +27,7 @@ This is a dual guide on both WorldBorder and Chunkmaster. WorldBorder is a more 
 {% endhint %}
 
 {% hint style="warning" %}
-> In order to be able to use this, make sure you already [have EWG installed](basic-installation.md)
+> In order to be able to use this, make sure you already [have EWG installed](basic-installation.md) and the correct version of WorldEdit
 {% endhint %}
 
 {% hint style="success" %}
@@ -178,85 +178,7 @@ language: en
 dynmap: true
 ```
 
-**1.16 config**
-
 {% hint style="info" %}
-> I did not personally test these settings. They are derived from the default settings as they come with the plugin.
-{% endhint %}
-
-```text
-generation:
-  mspt-pause-threshold: 500
-  pause-on-player-count: 2
-  max-pending-chunks: 125
-  max-loaded-chunks: 250
-  unloading-period: 40
-  ignore-worldborder: false
-  autostart: true
-database:
-  filename: chunkmaster.db
-language: en
-dynmap: true
-```
-
-Mid-end machines \(~7 GB RAM and medium-end CPU's\):
-
-```text
-generation:
-  mspt-pause-threshold: 500
-  pause-on-player-count: 2
-  max-pending-chunks: 250
-  max-loaded-chunks: 500
-  unloading-period: 50
-  ignore-worldborder: false
-  autostart: true
-database:
-  filename: chunkmaster.db
-language: en
-dynmap: true
-```
-
-High-end machines \(&gt;8 GB RAM and medium-high-end CPU's\):
-
-```text
-generation:
-  mspt-pause-threshold: 500
-  pause-on-player-count: 2
-  max-pending-chunks: 500
-  max-loaded-chunks: 1000
-  unloading-period: 50
-  ignore-worldborder: false
-  autostart: true
-database:
-  filename: chunkmaster.db
-language: en
-dynmap: true
-```
-
-Hosting server machines or extreme servers \(&gt;10 GB RAM and industrial CPU's used by hosting websites, many cores and threads\):
-
-```text
-generation:
-  mspt-pause-threshold: 500
-  pause-on-player-count: 1
-  max-pending-chunks: 750
-  max-loaded-chunks: 1500
-  unloading-period: 75
-  ignore-worldborder: false
-  autostart: true
-database:
-  filename: chunkmaster.db
-language: en
-dynmap: true
-```
-
-{% hint style="info" %}
-> For the 1.16 configuration, you can edit the following settings:
->
-> * `unloading-period:`
-> * `max-pending-chunks:`
-> * `max-loaded-chunks:`
->
 > For the 1.15 configuration, you can edit the following settings:
 >
 > * `chunks-per-step:`
@@ -267,7 +189,7 @@ dynmap: true
 {% endhint %}
 
 {% hint style="info" %}
-> In all of these presets the `dynmap:`setting is on `true`. \(Both 1.15.2 and 1.16\)  
+> In all of these presets the `dynmap:`setting is on `true`.  
 > This allows you to render a [Dynmap](https://shockbyte.com/billing/knowledgebase/92/How-to-Set-Up-Dynmap.html) alongside generating the world, at the cost of about 10% performance. If you're not interested in a Dynmap, you are best off turning `dynmap:` to `false`.
 {% endhint %}
 
@@ -290,7 +212,7 @@ dynmap: true
 {% endhint %}
 
 {% hint style="success" %}
-> Please contact Coco if you are **not** getting more than an average of 25 chunks per seconds in the generation task, so we can both improve performance and improve this tutorial.  
+> Please contact Coco if you are **not** getting more than an average of 20 chunks per seconds in the generation task, so we can both improve performance and improve this tutorial.  
 > \(Please don't jump to conclusions, and wait for at least 15 minutes to get an accurate speed\)
 {% endhint %}
 
