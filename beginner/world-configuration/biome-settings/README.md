@@ -161,7 +161,7 @@ Next to each of the biomes is a comment line, with information about that settin
         "provider": "MINECRAFT", "Either MINECRAFT or EWG. Decides where the biome comes from."
         "name": "BAMBOO_JUNGLE", "The name of the biome"
         "xModifier": 1.0, "Changes the width at which the biome stretches out. Goes hand-in-hand with the noiseLayers above."
-        "yModifier": 1.0, "Changes the height at which the biome generates, same as ^ applies."
+        "yModifier": 1.0, "Changes the height at which the biome is streched out, same as ^ applies."
         "zModifier": 1.0, "Changes the length at which the biome stretches out, same as ^ applies."
         "yOffset": 0 "Removes layers from the bottom of the map. No touchy."
       }
