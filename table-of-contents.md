@@ -25,6 +25,7 @@ description: All pages in this wiki are listed here
     * [Customise ores](https://docs.dynamic-bytes.com/beginner/customise-ores)
   * [Generate world from image](https://docs.dynamic-bytes.com/beginner/generate-world-from-image)
 * [Plugin configuration](https://docs.dynamic-bytes.com/beginner/plugin-configuration)
+* [How to migrate a world](https://docs.dynamic-bytes.com/beginner/how-to-migrate-a-world)
 
 **Configuration - Intermediate**
 
