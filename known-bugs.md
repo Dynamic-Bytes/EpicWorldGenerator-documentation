@@ -19,12 +19,18 @@ description: >-
 {% endhint %}
 
 {% hint style="info" %}
-> The `Workaround?` column indicates if there is a possible workaround \(however much time it may take\). Contact support on our Discord if you need help with this. Please do not ask for a workaround if there is a `No`in that column.
+> The `Workaround?` column indicates if there is a possible workaround \(however much time it may take\). If there is no reference to a pointer at the bottom, please contact support on our [Discord ](https://discord.gg/Jq3ecb3)for help with this. Please do not ask for a workaround if there is a `No`in that column, you won't get one.
 {% endhint %}
 
 | Bug description | 8.1.34 | 8.1.33 | 8.1.28 | Workaround? |
 | :--- | :--- | :--- | :--- | :--- |
-| Doesn't contain broken portals | No | Yes | Yes | Yes |
+| Doesn't contain broken portals | No | Yes | Yes | Yes \( 1. \)  |
 
+1. Making [custom structures](https://docs.dynamic-bytes.com/intermediate/create-structure) out of the portals and having them spawn, just like any other custom.
 
+#### Support
+
+If you run into issues with any of these, make sure to contact our support team on our [Discord](https://discord.gg/Jq3ecb3).
+
+**Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 
