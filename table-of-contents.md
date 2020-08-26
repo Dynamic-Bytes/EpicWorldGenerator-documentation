@@ -9,6 +9,7 @@ description: All pages in this wiki are listed here
 * [Verification](https://docs.dynamic-bytes.com/verification)
 * [Frequently Asked Questions](https://docs.dynamic-bytes.com/frequently-asked-questions)
 * [Versioning](https://docs.dynamic-bytes.com/versioning)
+* [Known bugs](https://docs.dynamic-bytes.com/known-bugs)
 
 **Configuration - Beginner**
 
