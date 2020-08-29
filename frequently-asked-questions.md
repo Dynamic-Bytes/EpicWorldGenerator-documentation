@@ -19,6 +19,7 @@ description: The FAQ section - Quite a few regular issues are listed here
 * VIII. How do I disable biomes I don't like?
 * IIX. Can I remove the plugin after I generated a map?
 * IX. Why are their weird half-black chunks on my \(Dyn\)map?
+* X. Why is my server freezing because of a Cartographer?
 
 #### I. Where do I find the configuration files?
 
@@ -183,6 +184,26 @@ Unfortunately, there is no built-in solution to this issue, other than using an 
 
 {% hint style="info" %}
 > There is a setting in the plugin's config which dictates whether or not the plugin should continually check and light-sweep newly generated chunks. This setting is on by default but can be turned off.
+{% endhint %}
+
+#### X. Why is my server freezing because of a Cartographer?
+
+It is possible that your server freezes because a Cartographer is trying to create an Igloo or Mansion somewhere in the world. This is \(with the latest EWG\) not possible, and it then tries infinitely many times to create one, effectively crashing the server.
+
+You can prevent this by running the following 2 commands:
+
+```text
+/setblock 0 0 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"kill @e[type=villager,nbt={profession:cartographer}]",auto:1} destroy
+```
+
+```text
+/setblock 0 1 0 minecraft:bedrock
+```
+
+This method creates a command block which constantly triggers itself. It will search and kill all Cartographer villagers in the world, preventing this crash.
+
+{% hint style="warning" %}
+> You must have `enable-command-block=true` on line 25 of the `server.properties`file.
 {% endhint %}
 
 #### Support
