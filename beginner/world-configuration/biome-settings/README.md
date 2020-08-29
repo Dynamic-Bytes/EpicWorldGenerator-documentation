@@ -49,9 +49,9 @@ Next to each of the biomes is a comment line, with information about that settin
   "useLavaLakes": false, "Toggles if lava lakes spawn."
   "useBedrock": true, "Toggles if there is any bedrock under the biome. Useful for sky island maps."
   "useRivers": true, "Toggles rivers."
-  "useNativePainting": true, "Unknown by me, needs modifying!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-  "useNativeStructure": true,
-  "useNativeDecorations": true,
+  "useNativePainting": true, "Vanilla terrain stuff (not sure if this does anything)"
+  "useNativeStructure": true, "Vanilla structures like temples"
+  "useNativeDecorations": true, "Vanilla decorations such as flowers"
   "nativeBiome": "BAMBOO_JUNGLE", "Changes the native biome. Modifies mob spawns."
   "biomeColors": [ "Used in image generation. !-3."
     "0cff00" "Color is the same as the color on the map. EWG always picks the closest one if not the exact color."
