@@ -49,8 +49,23 @@ Example: I have two worlds named `pumpkin` and `melon` in my server. I do not wa
   ],
 ```
 
-6. Start the server.  
-7. Enjoy the plugin!
+6. Start the server.
+
+7. Run the following two commands to prevent cartographers from crashing your server
+
+{% hint style="warning" %}
+> You must have `enable-command-block=true` on line 25 of the `server.properties`file.
+{% endhint %}
+
+```text
+/setblock 0 1 0 minecraft:bedrock
+```
+
+```text
+/setblock 0 0 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:'kill @e[type=villager,nbt={profession:cartographer}]',auto:1} destroy
+```
+
+8. Enjoy the plugin!
 
 **Back to:** [**Table of contents**](https://docs.dynamic-bytes.com/table-of-contents)**.**
 

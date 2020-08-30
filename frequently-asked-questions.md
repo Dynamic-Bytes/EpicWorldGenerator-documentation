@@ -193,7 +193,7 @@ It is possible that your server freezes because a Cartographer is trying to crea
 You can prevent this by running the following 2 commands:
 
 ```text
-/setblock 0 0 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:"kill @e[type=villager,nbt={profession:cartographer}]",auto:1} destroy
+/setblock 0 0 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:'kill @e[type=villager,nbt={profession:cartographer}]',auto:1} destroy
 ```
 
 ```text
