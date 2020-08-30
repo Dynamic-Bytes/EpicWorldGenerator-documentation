@@ -545,6 +545,22 @@ You now have a new folder in the server folder:
 
 This is where you would follow the [Maiskorf's Additional Biome Pack \(Guide\)](https://docs.dynamic-bytes.com/beginner/recommended-installation/maiskorfs-additional-biome-pack) and install the settings into the newly created world `TestWorld` \(if you are following along with Multiverse\) or the default `world` folder \(if you are not\).
 
+**III.IV. Preventing cartographer crashes**
+
+Run the following two commands to prevent cartographers from crashing your server
+
+{% hint style="warning" %}
+> You must have `enable-command-block=true` on line 25 of the `server.properties`file.
+{% endhint %}
+
+```text
+/setblock 0 1 0 minecraft:bedrock
+```
+
+```text
+/setblock 0 0 0 minecraft:repeating_command_block[conditional=false,facing=up]{Command:'kill @e[type=villager,nbt={profession:cartographer}]',auto:1} destroy
+```
+
 ## IV. Pre-generating the world
 
 To keep this tutorial from being even longer than it already is, follow [this](https://docs.dynamic-bytes.com/beginner/pre-generation) tutorial in order to pre-generate the world. There is also a tutorial for WorldBorder in there, but we are using Chunkmaster because of better performance.
