@@ -436,10 +436,10 @@ anti-xray:
   engine-mode: 2
 ```
 
-While this actually costs some server performance, it is the single best anti-X-Ray measure you can take. It replaces blocks \(only clientside\) with a random selection from the list below these 3 lines, making it impossible to use X-Ray on a server effectively.
+While this actually costs some server performance, it is the single best anti-X-Ray measure you can take. It replaces blocks \(only client-side\) with a random selection from the "replacement-blocks" list, making it impossible to use X-Ray on a server effectively. Engine mode "1" has a slightly lower performance impact and replaces only targeted blocks with fake visuals, while engine mode "2" is a little bit more intensive but will practically eliminate all X-Raying by replacing almost every block with fake ores. 
 
 {% hint style="info" %}
-> If your players regularly see the blocks while mining \(especially with server lag and/or high efficiency pickaxes\) you can increase the `update-radius: 2` setting to equal a higher value. Making this more than 3 will enable X-Ray users to X-Ray profitably.
+> If your players regularly see the fake blocks while mining \(especially with server lag and/or high efficiency pickaxes\), it is recommended to use `engine-mode: 1`
 {% endhint %}
 
 {% hint style="success" %}
