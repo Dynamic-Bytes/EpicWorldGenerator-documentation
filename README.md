@@ -14,8 +14,6 @@ Congratulations on selecting EpicWorldGenerator as your world generator! Your se
 
 #### Default installation guide
 
-We have a few pre-sets available, which you can find here.
-
 An easy-to-understand installation guide can be found [here](https://docs.dynamic-bytes.com/beginner/basic-installation).
 
 {% hint style="danger" %}
