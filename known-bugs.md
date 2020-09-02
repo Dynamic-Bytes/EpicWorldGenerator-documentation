@@ -25,6 +25,7 @@ description: >-
 | Bug description | 8.1.34 | 8.1.33 | 8.1.28 | Workaround? |
 | :--- | :--- | :--- | :--- | :--- |
 | Doesn't contain broken portals | No | Yes | Yes | Yes \( 1. \)  |
+| World gen doesn't stop at border | Yes | ??? | Yes | No |
 
 1. Making [custom structures](https://docs.dynamic-bytes.com/intermediate/create-structure) out of the portals and having them spawn, just like any other custom.
 
