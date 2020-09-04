@@ -12,14 +12,14 @@ This tutorial is part of the [Recommended Installation](https://docs.dynamic-byt
 
 0. If you have not yet stopped your server, stop your server.
 
-1. Download the [Maiskorf's Additional Biome Pack.](https://1drv.ms/u/s!AmrRJ70wu8OUgck69m2Iyq4FKKGg1Q)
+1. Download the [Maiskorf's Additional Biome Pack.](https://1drv.ms/u/s!AmrRJ70wu8OUgcldbSzGxLuMncWSkg?e=YQwHOO)
 
 {% hint style="info" %}
 > The link above takes you to a OneDrive download page. Click the `Download` button at the left top to download the file.
 {% endhint %}
 
 {% hint style="warning" %}
-> The screenshots in this tutorial were made with a version which is 1 below the latest. The steps for both are identical.
+> The screenshots in this tutorial were made with a version which is older than the latest. The steps for most \(if not all\) versions are identical.
 {% endhint %}
 
 2. Unzip the pack using window's unzip
