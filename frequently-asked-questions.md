@@ -207,6 +207,10 @@ This method creates a command block which constantly triggers itself. It will se
 > You must have `enable-command-block=true` on line 25 of the `server.properties`file.
 {% endhint %}
 
+{% hint style="danger" %}
+> Unless you love to see your console spammed with command block output, you should set `silent-commandblock-console: true` in your `spigot.yml` settings file.
+{% endhint %}
+
 #### XI. Why is my server crashing because of an "Asynchronous World Save!" error?
 
 There have been reports of worlds crashing because of an "Asynchronous World Save!" error. While it remains unclear what exactly causes this, the leading thesis is that the error appears after updating the plugin without resetting the settings.
