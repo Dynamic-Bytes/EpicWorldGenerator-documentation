@@ -7,7 +7,7 @@ description: >-
 # Known bugs
 
 {% hint style="success" %}
-> We currently recommend using 1.15.2 on PaperMC \(latest 1.15.2 stable\).
+> We currently recommend using 1.16.2 on PaperMC \(latest version\).
 {% endhint %}
 
 {% hint style="info" %}
