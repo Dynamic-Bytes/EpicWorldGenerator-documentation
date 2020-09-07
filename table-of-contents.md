@@ -8,6 +8,7 @@ description: All pages in this wiki are listed here
 * [Commands](https://docs.dynamic-bytes.com/commands)
 * [Verification](https://docs.dynamic-bytes.com/verification)
 * [Frequently Asked Questions](https://docs.dynamic-bytes.com/frequently-asked-questions)
+  * [Regenerating chunks](https://docs.dynamic-bytes.com/frequently-asked-questions/regenerating-broken-chunks)
 * [Versioning](https://docs.dynamic-bytes.com/versioning)
 * [Known bugs](https://docs.dynamic-bytes.com/known-bugs)
 
