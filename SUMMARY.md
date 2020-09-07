@@ -4,7 +4,8 @@
 * [Table of Contents](table-of-contents.md)
 * [Commands](commands.md)
 * [Verify your purchase](verification.md)
-* [Frequently Asked Questions](frequently-asked-questions.md)
+* [Frequently Asked Questions](frequently-asked-questions/README.md)
+  * [Regenerating broken chunks](frequently-asked-questions/regenerating-broken-chunks.md)
 * [Versioning](versioning.md)
 * [Known bugs](known-bugs.md)
 

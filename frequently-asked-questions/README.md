@@ -108,11 +108,11 @@ Occasionally, upon a fresh install \(first time you run the server with the plug
   
 Type 1 - Invalid license
 
-![](.gitbook/assets/afbeelding%20%283%29.png)
+![](../.gitbook/assets/afbeelding%20%283%29.png)
 
 Type 2 - Unable to reach back-end servers
 
-![](.gitbook/assets/afbeelding.png)
+![](../.gitbook/assets/afbeelding.png)
 
 These issues are usually a connection issue between your and our server\(s\). The main way this can be resolved \(from your end, at first\) is by checking your firewall settings and making sure you have a working internet connection for your server. If you did both those things, and it is still not working, make sure to reach out to our [Discord](https://discord.gg/Jq3ecb3) support team.
 
@@ -120,7 +120,7 @@ These issues are usually a connection issue between your and our server\(s\). Th
 
 **VI.I Issue with moisture**
 
-![](.gitbook/assets/afbeelding%20%284%29.png)
+![](../.gitbook/assets/afbeelding%20%284%29.png)
 
 This issue is caused by an update to the way dataTags are handeled in EWG. It is no longer required to use the datatags, and they must be removed. This should be done by default in the latest version of the plugin. Navigate to the following file: `*/<world name>/settings/biomes/default/farmland.json`, Scroll down to the part that looks like the following \(should be around line 590, before the custom structures\):
 
@@ -175,7 +175,7 @@ You can remove the plugin after you generated a map. Keep in mind, however, that
 There is a known bug in Spigot / Paper \(not our end\), that gives black areas in your map, such as this:  
 
 
-![Example of a half-black chunk on the map](.gitbook/assets/afbeelding%20%2812%29.png)
+![Example of a half-black chunk on the map](../.gitbook/assets/afbeelding%20%2812%29.png)
 
 Unfortunately, there is no built-in solution to this issue, other than using an additional [plugin called Light Cleaner](https://www.spigotmc.org/resources/light-cleaner.42469). After installing the plugin, run `/cleanlight world <world name>` from in game, or run `cleanlight world <world name>` from the console. The plugin will then get to work on fixing these issues in the world with `<world name>` name.
 
