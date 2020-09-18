@@ -12,7 +12,7 @@ This tutorial is part of the [Recommended Installation](https://docs.dynamic-byt
 
 0. If you have not yet stopped your server, stop your server.
 
-1. Download the [Maiskorf's Additional Biome Pack.](https://1drv.ms/u/s!AmrRJ70wu8OUgcldbSzGxLuMncWSkg?e=YQwHOO)
+1. Download the [Maiskorf's Additional Biome Pack.](https://boxproject.nl/Minecraft/Plugins/EWG/Packs)
 
 {% hint style="info" %}
 > The link above takes you to a OneDrive download page. Click the `Download` button at the left top to download the file.
