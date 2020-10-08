@@ -38,13 +38,14 @@ description: >-
 #### Using Dinnerbone's tool and the region files
 
 1. Enter your world and write down / memorize the coordinates of the chunk you want to reset \(any block inside the chunk works\).
-2. Open [Dinnerbone's Coordinate Tool](https://dinnerbone.com/minecraft/tools/coordinates/).
-3. Enter the coordinates you wrote down in the second row under "Chunk Section Information".
-4. Write down / memorize the name of the file as described in the box next to "Filename:".
-5. Open your server's root folder and locate the `*/<worldName>` folder, where `<worldName>` is the name of the world in which the to-be-replaced chunk is.
-6. Open that folder, then open the `region` folder: `*/<worldName>/region`.
-7. Inside that folder, find the file with the name you wrote down / memorized with step 4, and delete it.
-8. Restart the server
+2. Stop the server.
+3. Open [Dinnerbone's Coordinate Tool](https://dinnerbone.com/minecraft/tools/coordinates/).
+4. Enter the coordinates you wrote down in the second row under "Block Information".
+5. Write down / memorize the name of the file as described in the "Region Information" box next to "Filename:"
+6. Open your server's root folder and locate the `*/<worldName>` folder, where `<worldName>` is the name of the world in which the to-be-replaced chunk is.
+7. Open that folder, then open the `region` folder: `*/<worldName>/region`.
+8. Inside that folder, find the file with the name you wrote down / memorized with step 4, and delete it.
+9. Restart the server
 
 {% hint style="info" %}
 > If none of these work, there is another method which we will not present here, as it can seriously harm your server. Contact @Support in Discord for more info on that \(links below\).
