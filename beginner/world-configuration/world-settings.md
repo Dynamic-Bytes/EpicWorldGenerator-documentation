@@ -6,7 +6,7 @@ description: Settings for your entire world - world-settings.json
 
 Each world has it is own settings that apply to all the biomes. This contains general settings like sea level, biome sizes and much more. It has to be in its own file to make sure the biomes fade correctly, among other things.
 
-The setting file is location at;
+The setting file is located at;
 
 ```bash
 */<world name>/settings/world-settings.json

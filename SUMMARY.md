@@ -21,7 +21,7 @@
   * [Biome settings](beginner/world-configuration/biome-settings/README.md)
     * [Customise Chest Contents](beginner/world-configuration/biome-settings/customise-chests.md)
     * [Customise ores](beginner/world-configuration/biome-settings/customise-ores.md)
-  * [Generate world from image](beginner/world-configuration/generate-world-from-image.md)
+  * [Generate World from Image](beginner/world-configuration/generate-world-from-image.md)
 * [Plugin configuration](beginner/plugin-configuration.md)
 * [How to migrate a world](beginner/how-to-migrate-a-world.md)
 
