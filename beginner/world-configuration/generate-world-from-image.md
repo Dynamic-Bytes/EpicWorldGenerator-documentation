@@ -2,11 +2,11 @@
 description: 'You can take full control over the generation of your world, block by block.'
 ---
 
-# Generate world from image
+# Generate World from Image
 
 ![Custom world](http://i.imgur.com/b84tZgQ.png)
 
-Take full control over the plugin by telling the plugin to create a world based on an image you give it. Paint every detail of the world. For example, you can make islands, rivers, or even generate a world based on your server logo or a map of the world itself \(check the example below\).
+Take full control over the plugin by telling the plugin to create a world based on an image you give it. Paint every detail of the world. For example, you can make islands, rivers, or even generate a world based on your server logo or a map of the planet itself \(check the example below\).
 
 ### Example
 
@@ -16,30 +16,34 @@ Take full control over the plugin by telling the plugin to create a world based 
 
 [http://i.imgur.com/SiJ6ccr.mp4](http://i.imgur.com/SiJ6ccr.mp4)
 
-#### In-game images
+#### In-game Images
 
 ![ingame](http://i.imgur.com/b84tZgQ.png) ![ingame](http://i.imgur.com/O4uIC8B.png) ![ingame](http://i.imgur.com/4MuaNdJ.png)
 
-### Generate your own image based world
+### Generate your own image-based world
 
-1. Enable the feature in the config file of EWG \(located at `*/plugins/EpicWorldGenerator/settings.json` and set`"enableGeneratorSwap":` to `true`
+1. Create a new image in your favorite editor (Photoshop, Gimp, etc). Each pixel of your image will equal 1 in-game block (i.e. a 5000x5000px image will create a 5000x5000 block map). See Take Control below for more details about how to map a biome to a portion of your image. Once you've created your map, save it as a PNG called `map.png` (it must be in the PNG format with this exact name). Upload the image to your server.
 
-2. Place a .png image file into the world folder of the world you want to create at  
+2. Enable the feature in the config file of EWG \(located at `*/plugins/EpicWorldGenerator/settings.json` and set`"enableGeneratorSwap":` to `true`
+
+3. Place the map.png image file into the world folder of the world you want to create at  
 `*/<world folder>/settings/map.png`
 
 {% hint style="warning" %}
 > The file must be named `map.png`
 {% endhint %}
 
-3. Start the server
+> Note: If there is already a world (files in `*/<world folder>/region/`), then you will need to delete them prior to starting the server so EWG can create a new map. This *will* erase your existing world.
 
-4. [Pre-generate](https://docs.dynamic-bytes.com/beginner/world-configuration/generate-world-from-image) the map?
+4. Start the server
 
-5. Join the world \(using `/mv teleport` if you use [MultiVerse - core](https://dev.bukkit.org/projects/multiverse-core)\)
+5. [Pre-generate](https://docs.dynamic-bytes.com/beginner/world-configuration/generate-world-from-image) the map (highly recommended)
+
+6. Join the world \(using `/mv teleport` if you use [MultiVerse - core](https://dev.bukkit.org/projects/multiverse-core)\)
 
 In the example above. We used this image, named it `map.png` and placed it in the folder; 
 
-![https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole\_world\_-\_land\_and\_oceans\_12000.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg)
+![https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole\_world\_-\_land\_and\_oceans\_12000.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg, image is 24,000px x 12,000px)
 
 ### Take control
 
