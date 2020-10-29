@@ -23,6 +23,7 @@ Take full control over the plugin by telling the plugin to create a world based 
 ### Generate your own image-based world
 
 1. Create a new image in your favorite editor (Photoshop, Gimp, etc). Each pixel of your image will equal 1 in-game block (i.e. a 5000x5000px image will create a 5000x5000 block map). See Take Control below for more details about how to map a biome to a portion of your image. Once you've created your map, save it as a PNG called `map.png` (it must be in the PNG format with this exact name). Upload the image to your server.
+> Note: If you want to change the scale of your image vs blocks (i.e. 1 pixel equaling 1 chunk on the map), see the "Map Scale" setting at https://docs.dynamic-bytes.com/beginner/world-configuration/world-settings
 
 2. Enable the feature in the config file of EWG \(located at `*/plugins/EpicWorldGenerator/settings.json` and set`"enableGeneratorSwap":` to `true`
 
