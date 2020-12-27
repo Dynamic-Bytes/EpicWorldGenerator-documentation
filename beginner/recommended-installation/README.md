@@ -76,7 +76,7 @@ After replacing the `paper-###.jar` filename with the correct name, click `File`
 
 ![File and Save As...](../../.gitbook/assets/image%20%2824%29.png)
 
-Then rename `run.txt` to `run.batr` and click save.  
+Then rename `run.txt` to `run.bat` and click save.  
 
 
 ![Renamed to run.bat](../../.gitbook/assets/image%20%2820%29.png)
